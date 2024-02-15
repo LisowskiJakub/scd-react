@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+
+    font-family: $main-font;
+    color: $main-font-color;
+}
+
+ul {
+    padding: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+p {
+    margin: 0px;
+}
+
+.container {
+    max-width: 1080px;
+
+}
+
+a.menu__link.active {
+
+    text-decoration: underline;
+}

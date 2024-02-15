@@ -1,0 +1,63 @@
+.header {
+    position: sticky;
+    top: 0;
+    color: $main-font-color;
+    background-color: $main-background;
+
+    &__menu {
+
+        margin: auto;
+        display: flex;
+        height: 112px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 283px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    &__link {
+        cursor: pointer;
+
+        &:hover {
+            color: $accent-color
+        }
+    }
+}
+
+
+.side-menu {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 232px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.accent {
+    display: flex;
+    width: 140px;
+    height: 40px;
+    padding: 10px 38px;
+    color: $accent-color;
+    border: 1px solid $accent-color;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    &:visited {
+        color: $accent-color;
+    }
+}
