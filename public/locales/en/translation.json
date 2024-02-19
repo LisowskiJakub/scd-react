@@ -1,0 +1,36 @@
+{
+    "nav": {
+        "projects": "Projects",
+        "services": "Services",
+        "aboutUs": "About us",
+        "career": "Career",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "W automate the world",
+        "description": "We focus on customers’ needs and support them in improving their processes by implementing the best solutions, tailored specifically to their requirements."
+    },
+    "footer": {
+        "description": "We are here to automate the world. We are dedicated to supporting innovation and contributing to technological development by offering efficient and modern solutions for industry. .",
+        "contact": "Contact",
+        "rights": "© 2024 SCD Automation sp. z o.o. All Rights Reserved."
+    },
+    "ourServices": {
+        "a": {
+            "title": "Electrical instalation",
+            "description": "We design and carry out electrical installations comprehensively. Starting from the conceptual and design phase, ending with implementation at the customer's site and measurements. "
+        },
+        "b": {
+            "title": "Control systems",
+            "description": "We design and implement PLC software that controls the production flow. Our solutions are tailored to your needs. We specialize in intralogistics and automotive. "
+        },
+        "c": {
+            "title": "Support",
+            "description": "Maintaining the efficiency of the system and its operation is of the utmost importance. Let us take care of you. Our company provides 24/7 remote technical support and maintenance services. "
+        },
+        "d": {
+            "title": "R&D ",
+            "description": "Innovation is in our DNA. We focus on all the possibilities offered by technological advancement and invest to take advantage of them. Our offer includes only the most modern solutions."
+        }
+    }
+}

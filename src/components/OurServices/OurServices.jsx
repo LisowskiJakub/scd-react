@@ -1,5 +1,5 @@
 import { OurServicesItem } from "./OurServicesItem"
-import screen from '/svg/screen.svg'
+
 
 
 
