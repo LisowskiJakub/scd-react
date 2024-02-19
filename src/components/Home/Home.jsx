@@ -9,5 +9,5 @@ export const Home = () => (
         <Hero />
         <OurServices elements={elements1} />
         <WorldMap />
-        <LogoCarousel />
+
     </>)
