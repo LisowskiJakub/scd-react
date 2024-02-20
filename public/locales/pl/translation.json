@@ -32,5 +32,9 @@
             "title": "R&D ",
             "description": "Innovation is in our DNA. We focus on all the possibilities offered by technological advancement and invest to take advantage of them. Our offer includes only the most modern solutions."
         }
+    },
+    "robot": {
+        "title": "",
+        "description": "Innowacje w automatyce i cyfryzacja Przemysłu 4.0 otwierają nowe możliwości. Jesteśmy Twoim partnerem w zakresie integracji systemów sterowania, który pomoże Ci wykorzystać te możliwości i sprawi, że Twój proces produkcyjny będzie szybszy i bardziej wydajny. Naszym celem jest przekroczenie Twoich oczekiwań. Oferujemy niestandardowe rozwiązania, które spełniają określone potrzeby i wyzwania. Niezależnie od tego, czy potrzebujesz zmodernizować istniejący sprzęt, zainstalować nowe systemy, czy zintegrować różne technologie, jesteśmy tutaj, aby wspierać Cię na każdym kroku."
     }
 }

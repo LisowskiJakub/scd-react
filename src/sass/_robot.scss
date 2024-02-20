@@ -1,0 +1,41 @@
+.robot {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: $main-background;
+
+    &__wrapper {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+
+    }
+
+    &__content {
+        padding: 24px 12px;
+        max-width: 543px;
+    }
+
+    &__title {
+        font-size: 61px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__description {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+    }
+
+    &__bg {
+
+        width: 50%;
+        background: url('/public/Robot.png');
+        background-repeat: no-repeat;
+        background-position: left top;
+    }
+
+}

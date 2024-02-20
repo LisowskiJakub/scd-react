@@ -224,6 +224,40 @@ a.menu__link.active {
   opacity: 1;
 }
 
+.robot {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: #EEE;
+}
+.robot__wrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+.robot__content {
+  padding: 24px 12px;
+  max-width: 543px;
+}
+.robot__title {
+  font-size: 61px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.robot__description {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.robot__bg {
+  width: 50%;
+  background: url("/public/Robot.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
 .footer {
   color: #EEE;
   background-color: #2A3941;
