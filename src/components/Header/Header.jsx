@@ -1,4 +1,4 @@
-import propTypes from 'prop-types';
+
 import { NavLink } from 'react-router-dom';
 import css from './Header.module.css'
 import { Nav } from '../Nav/Nav'
