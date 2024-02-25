@@ -1,0 +1,25 @@
+.section {
+    max-width: 1080px;
+    margin: 0px auto;
+    padding: 86px 0px;
+
+}
+
+.title {
+
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.description {
+    width: 656px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: 0em;
+    text-align: left;
+}

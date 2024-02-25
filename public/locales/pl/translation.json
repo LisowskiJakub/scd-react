@@ -1,7 +1,7 @@
 {
     "nav": {
         "projects": "Projekty",
-        "services": "Serwis",
+        "services": "Usługi",
         "aboutUs": "O nas",
         "career": "Kariera",
         "contact": "Kontakt"
@@ -36,5 +36,37 @@
     "robot": {
         "title": "",
         "description": "Innowacje w automatyce i cyfryzacja Przemysłu 4.0 otwierają nowe możliwości. Jesteśmy Twoim partnerem w zakresie integracji systemów sterowania, który pomoże Ci wykorzystać te możliwości i sprawi, że Twój proces produkcyjny będzie szybszy i bardziej wydajny. Naszym celem jest przekroczenie Twoich oczekiwań. Oferujemy niestandardowe rozwiązania, które spełniają określone potrzeby i wyzwania. Niezależnie od tego, czy potrzebujesz zmodernizować istniejący sprzęt, zainstalować nowe systemy, czy zintegrować różne technologie, jesteśmy tutaj, aby wspierać Cię na każdym kroku."
+    },
+    "section": {
+        "projects": {
+            "title": "Projekty",
+            "description": "Skalę traktujemy jako wyzwanie, a nie ograniczenie. Nasza firma specjalizuje się w realizacji zarówno małych, jak i wielkoskalowych projektów we wszystkich dziedzinach automatyki przemysłowej."
+        },
+        "aboutUs": {
+            "title": "O nas",
+            "description": " “Automation does not need to be our enemy. I think machines can make life easier for men, if men do not let the machines dominate them.” <br/>John F. Kennedy"
+        },
+        "ourServices": {
+            "title": "Usługi",
+            "description": "“Nie chodzi tylko o dostarczanie produktów. Chodzi o dostarczanie doświadczeń i rozwiązania problemów.” - Steve Jobs  "
+        },
+        "career": {
+            "title": "Dołącz do SCD Automation",
+            "description": "“Nie wybieraj ludzi do twojego zespołu, a potem próbuj uczyć ich pasji. Znajdź ludzi, którzy już mają pasję, a potem zbuduj z nimi zespół.” - Dave Ramsey . "
+        }
+    },
+    "projectsInfo": {
+        "intralogistics": {
+            "title": "Intralogistyka",
+            "description": "Tworzymy oraz realizujemy różnorodne projekty w branży intralogistyki. Nasza specjalizacja skupia się na technologiach sterowania przenośnikami oraz szybkich systemach sortowania. Opracowaliśmy własną modułową platformę do zarządzania różnorodnymi systemami sortującymi, która pozwala na efektywne i elastyczne zarządzanie operacjami logistycznymi. Nasza platforma jest zintegrowana z innowacyjnym oraz intuicyjnym interfejsem HMI, który znacząco ułatwia użytkownikom zarządzanie systemem oraz monitorowanie jego wydajności. "
+        },
+        "automotive": {
+            "title": "Automotive",
+            "description": "Nasze bogate doświadczenie pozwala nam realizować projekty dla największych koncernów motoryzacyjnych, w tym grupy VW i DAG. Do tej pory z sukcesem wdrożyliśmy projekty w kluczowych obszarach produkcyjnych, takich jak karoseria, montaż i lakiernia. Posiadana przez nas wiedza oraz zdobyte umiejętności pozwalają nam efektywnie podejmować się każdego wyzwania projektowego, zapewniając naszym klientom kompleksową obsługę na najwyższym poziomie."
+        },
+        "industryMachines": {
+            "title": "Maszyny przemysłowe ",
+            "description": "Nasz proces projektowania jest oparty na dogłębnej analizie wymagań i specyfikacji klienta, co pozwala nam precyzyjnie określić potrzeby oraz dostarczyć maszyny, które są zoptymalizowane pod kątem efektywności, wydajności i trwałości.  Nie ważne, czy potrzebujesz maszyny do obróbki, pakowania, czy przetwarzania materiałów - nasza elastyczność i profesjonalizm gwarantują, że dostarczymy Ci rozwiązanie, które idealnie odpowiada Twoim potrzebom. "
+        }
     }
 }
