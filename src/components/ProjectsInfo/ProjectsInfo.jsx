@@ -1,37 +1,27 @@
-// import { Outlet, NavLink } from 'react-router-dom';
-// import { Suspense, useState } from 'react';
-// import { Trans, } from 'react-i18next';
-// import css from './ProjectsInfo.module.css'
-// import { Route } from "react-router-dom"
-// import { useState } from 'react';
-// import automotive from '/projects/automotive.png';
-// import industry from '/projects/industry.png';
-// import intralogistics from '/projects/intralogistics.png';
+import { Outlet, NavLink } from 'react-router-dom';
+import { Suspense } from 'react';
+import { Trans, } from 'react-i18next';
+import css from './ProjectsInfo.module.css'
+import { Route, Routes } from "react-router-dom"
+import { Automotive } from '../Automotive/Automotive';
+import { IndustryMachines } from '../IndustryMachines/IndustryMachines';
+import { Intralogistics } from '../Intralogistics/Intralogistics';
+export const ProjectsInfo = () => {
+
+    return (
+        <section className={css.section}>
+            <div className={css.menu}>
+                <div className={css.wrapper} id="menuActive">
+                    <NavLink className={css.link + " project__link"} to='intralogistics'><Trans i18nKey='projectsInfo.intralogistics.title'></Trans></NavLink>
+                    <NavLink className={css.link + " project__link"} to='automotive'><Trans i18nKey="projectsInfo.automotive.title"></Trans></NavLink>
+                    <NavLink className={css.link + " project__link"} to='industryMachines'><Trans i18nKey="projectsInfo.industryMachines.title"> </Trans></NavLink>
+                </div>
+                <div className={css.description}>
+                    <Outlet></Outlet>
+                </div>
+            </div>
 
 
-
-
-// export const ProjectsInfo = () => {
-//     const [activeDiv, setActiveDiv] = useState(0);
-//     const img = [
-//         {
-//             src: automotive,
-//             description: ''
-//         },
-//         {
-//             src:industry ,
-//             description: '',
-//         },
-//         {
-//             src: intralogistics,
-//             description: '',
-//         }
-//     ]
-
-//     return (
-//         <>
-//             <div className={css.menu}>
-
-//             </>
-//             )
-// }
+        </section>
+    )
+}

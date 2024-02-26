@@ -3,6 +3,7 @@
     top: 0;
     color: $main-font-color;
     background-color: $main-background;
+    z-index: 10;
 
     &__menu {
 
@@ -69,9 +70,9 @@
     flex-shrink: 0;
     transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 
-    &:visited {
-        color: $accent-color;
-    }
+    // &:visited {
+    //     color: $accent-color;
+    // }
 
     &:hover {
         color: $second-font-color;

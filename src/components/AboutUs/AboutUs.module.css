@@ -1,12 +1,13 @@
 .section {
+    height: 360px;
     max-width: 1080px;
     margin: 0px auto;
-    padding: 86px 0px;
+    padding: 86px 0px 0px;
 
 }
 
 .title {
-
+    margin: 0px 0px 50px;
     font-size: 61px;
     font-weight: 700;
     line-height: 74px;

@@ -41,11 +41,16 @@ a.menu__link.active {
   text-decoration: underline;
 }
 
+a.project__link.active {
+  color: #0C5ADB;
+}
+
 .header {
   position: sticky;
   top: 0;
   color: #2A3941;
   background-color: #EEE;
+  z-index: 10;
 }
 .header__menu {
   margin: auto;
@@ -99,9 +104,6 @@ a.menu__link.active {
   align-items: center;
   flex-shrink: 0;
   transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-}
-.accent:visited {
-  color: #0C5ADB;
 }
 .accent:hover {
   color: #EEE;

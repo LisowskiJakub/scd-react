@@ -1,9 +1,47 @@
 .section {
-    max-width: 1080px;
-    margin: 0px auto;
-    padding: 86px 0px;
+
+    position: relative;
+    height: 530px;
+    padding: 80px 50px;
+    color: #EEE;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0.0661712) 100%),
+        linear-gradient(0deg, #2A3941, #2A3941);
+
 
 }
+
+.menu {
+    display: flex;
+    margin: 0px auto;
+    max-width: 1080px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+
+}
+
+.link {
+
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    margin-bottom: 32px;
+    text-align: left;
+
+}
+
+
+
+
+
+/* .link .active {
+    color: #8CB4F7;
+
+} */
 
 .title {
 
@@ -16,10 +54,11 @@
 }
 
 .description {
-    width: 656px;
-    font-size: 16px;
+
+    width: 622px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 200%;
+    line-height: 150%;
     letter-spacing: 0em;
     text-align: left;
 }

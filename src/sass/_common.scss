@@ -43,3 +43,11 @@ a.menu__link.active {
 
     text-decoration: underline;
 }
+
+
+.project__link {}
+
+a.project__link.active {
+
+    color: $accent-color;
+}
