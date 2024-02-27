@@ -36,5 +36,37 @@
     "robot": {
         "title": "",
         "description": "Innovations in the automation and industry 4.0 digitalization open new opportunities. We are your control system integration partner, that will help you leverage these opportunities and will make your production process faster and more efficient.<br/><br/> Our goal is to exceed your expectations. We offer custom solutions that meet your specific needs and challenges. Whether you need to upgrade existing equipment, install new systems, or integrate various technologies, we are here to support you every step of the way. "
+    },
+    "section": {
+        "projects": {
+            "title": "Projects",
+            "description": "We view scale as a challenge, not a limitation. Our company specializes in both small and large-scale projects in all areas of industrial automation. "
+        },
+        "aboutUs": {
+            "title": "About us",
+            "description": " “Automation does not need to be our enemy. I think machines can make life easier for men, if men do not let the machines dominate them.” <br/>John F. Kennedy"
+        },
+        "ourServices": {
+            "title": "Our Services",
+            "description": "“Businesses don't just sell products. They deliver experiences and solve problems.” - Steve Jobs  "
+        },
+        "career": {
+            "title": "Join SCD Automation",
+            "description": "“Don't hire people and then try to teach them passion. Find passionate people and then build a team with them.” - Dave Ramsey . "
+        }
+    },
+    "projectsInfo": {
+        "intralogistics": {
+            "title": "Intralogistics",
+            "description": "We design and implement various projects in the intralogistics industry. Our specialization focuses on conveyor control technologies and high-speed sorting systems. We have developed our own modular platform for managing a variety of sorting systems, which allows for efficient and flexible management of logistics operations. Our platform is integrated with an innovative and intuitive HMI that makes it significantly easier for users to manage the system and monitor its performance. "
+        },
+        "automotive": {
+            "title": "Automotive",
+            "description": "Our comprehensive experience allows us to implement projects for major automotive concerns, including the VW Group and DAG. To date, we have successfully completed projects in crucial production areas such as body, assembly and paint shop. The knowledge we possess and the skills we have acquired allow us to effectively take on any project challenge, providing our customers with end-to-end service at the highest level. "
+        },
+        "industryMachines": {
+            "title": "Industry machines ",
+            "description": "Our design process is based on an in-depth analysis of the customer's requirements and specifications, which allows us to precisely identify needs and deliver machines that are optimized for efficiency, performance and durability.<br/> Whether you need a machine for forming, packaging or material processing, our flexibility and professionalism ensure that we deliver a solution that perfectly meets your needs. "
+        }
     }
 }
