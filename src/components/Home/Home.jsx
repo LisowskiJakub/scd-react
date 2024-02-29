@@ -7,7 +7,7 @@ import { Robot } from '../Robot/Robot'
 
 export const Home = () => (
     <>
-        <Hero />
+        <Hero transKey={"hero"} />
         <OurServices elements={elements1} />
         <Robot />
         <WorldMap />

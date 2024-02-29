@@ -1,9 +1,8 @@
 
-
-
+import { HeroCareer } from "./HeroCareer/HeroCareer"
 import { Trans } from "react-i18next"
 import css from "./Career.module.css"
-
+import picture from "/office.png"
 
 export const Career = () => (
 
@@ -17,6 +16,14 @@ export const Career = () => (
                 </Trans>
             </p>
         </section>
+        <HeroCareer transKey={"heroMenu.career"} picture={picture} />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
 
     </>
 )

@@ -34,16 +34,16 @@ export const Footer = () => (
                     <p className="footer__email">office@scd-automation.com</p>
                     <p className="footer__phone">+48 668 875 710</p>
                     <ul className="footer__links">
-                        <li class="footer__item">
-                            <a href="" class="footer__link">
-                                <svg class="footer__svg">
+                        <li className="footer__item">
+                            <a href="" className="footer__link">
+                                <svg className="footer__svg">
                                     <use href="/svg/socials.svg#instagram"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link">
-                                <svg class="footer__svg">
+                        <li className="footer__item">
+                            <a href="" className="footer__link">
+                                <svg className="footer__svg">
                                     <use href={Facebook}></use>
                                 </svg>
                             </a>

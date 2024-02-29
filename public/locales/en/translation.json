@@ -68,5 +68,15 @@
             "title": "Industry machines ",
             "description": "Our design process is based on an in-depth analysis of the customer's requirements and specifications, which allows us to precisely identify needs and deliver machines that are optimized for efficiency, performance and durability.<br/> Whether you need a machine for forming, packaging or material processing, our flexibility and professionalism ensure that we deliver a solution that perfectly meets your needs. "
         }
+    },
+    "heroMenu": {
+        "aboutUs": {
+            "title": "",
+            "description": "CD Automation was founded in 2021 in Poznan, Poland, with a mission to provide innovative solutions for improving and automating manufacturing processes. We specialize in designing and implementing control systems for industries such as intralogistics, automotive and machinery.<br/><br/> Our team is a group of experienced and passionate engineers with not only a wealth of experience, but also a diversity of talents and skills. Each of us brings something unique, so that our projects are not only comprehensive, but also innovative and effective."
+        },
+        "career": {
+            "title": "",
+            "description": "Our company values commitment and innovation, which is why we are constantly looking for people with diverse skills and experience to enrich our team. Whether you are an experienced professional in your field or just starting out in your career, we provide support and development opportunities to help you reach your full potential. Join our dynamic and inspiring community where your talents are valued and developed! <br/><br/>If you are interested you can apply through:<br/>"
+        }
     }
 }

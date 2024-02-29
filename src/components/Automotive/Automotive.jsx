@@ -1,5 +1,5 @@
 import { Trans } from "react-i18next"
-import picture from "/public/projects/automotive.png"
+import picture from "/projects/automotive.png"
 import css from "./Automotive.module.css";
 
 export const Automotive = () => (

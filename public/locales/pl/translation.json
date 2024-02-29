@@ -68,5 +68,11 @@
             "title": "Maszyny przemysłowe ",
             "description": "Nasz proces projektowania jest oparty na dogłębnej analizie wymagań i specyfikacji klienta, co pozwala nam precyzyjnie określić potrzeby oraz dostarczyć maszyny, które są zoptymalizowane pod kątem efektywności, wydajności i trwałości.  Nie ważne, czy potrzebujesz maszyny do obróbki, pakowania, czy przetwarzania materiałów - nasza elastyczność i profesjonalizm gwarantują, że dostarczymy Ci rozwiązanie, które idealnie odpowiada Twoim potrzebom. "
         }
+    },
+    "heroMenu": {
+        "aboutUs": {
+            "title": "",
+            "description": "CD Automation was founded in 2021 in Poznan, Poland, with a mission to provide innovative solutions for improving and automating manufacturing processes. We specialize in designing and implementing control systems for industries such as intralogistics, automotive and machinery.<br/><br/> Our team is a group of experienced and passionate engineers with not only a wealth of experience, but also a diversity of talents and skills. Each of us brings something unique, so that our projects are not only comprehensive, but also innovative and effective."
+        }
     }
 }
