@@ -17,13 +17,8 @@ export const Career = () => (
             </p>
         </section>
         <HeroCareer transKey={"heroMenu.career"} picture={picture} />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+
+
 
     </>
 )

@@ -1,5 +1,5 @@
 
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import css from './Header.module.css'
 import { Nav } from '../Nav/Nav'
 import Logo from '/Logo1.svg'
@@ -24,7 +24,7 @@ export const Header = () => {
                 <div className={'side-menu'}>
                     <div onClick={() => changeLanguage("pl")} className={'side-menu__link'}>PL</div>
                     <div onClick={() => changeLanguage("en")} className={'side-menu__link'}>EN</div>
-                    <a href="" className={'side-menu__link accent'}><Trans i18nKey="nav.contact">Contact</Trans></a>
+                    <Link className={'side-menu__link accent'} to='/Contact'><Trans i18nKey="nav.contact">Contact</Trans></Link>
                 </div>
             </div>
         </header>
