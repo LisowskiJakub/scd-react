@@ -44,7 +44,7 @@
         },
         "aboutUs": {
             "title": "O nas",
-            "description": " “Automation does not need to be our enemy. I think machines can make life easier for men, if men do not let the machines dominate them.” <br/>John F. Kennedy"
+            "description": " “Brakuje cytatu po polsku więc go przetłumaczcie w takiej formie jakiej chcecie” <br/>John F. Kennedy"
         },
         "ourServices": {
             "title": "Usługi",
@@ -53,6 +53,10 @@
         "career": {
             "title": "Dołącz do SCD Automation",
             "description": "“Nie wybieraj ludzi do twojego zespołu, a potem próbuj uczyć ich pasji. Znajdź ludzi, którzy już mają pasję, a potem zbuduj z nimi zespół.” - Dave Ramsey . "
+        },
+        "contact": {
+            "title": "Bądźmy w kontakcie",
+            "description": "“Stały kontakt z klientem to most łączący nasze usługi z ich potrzebami.”<br/>- D. Nikiel CEO SCD Automation."
         }
     },
     "projectsInfo": {
@@ -72,7 +76,15 @@
     "heroMenu": {
         "aboutUs": {
             "title": "",
-            "description": "CD Automation was founded in 2021 in Poznan, Poland, with a mission to provide innovative solutions for improving and automating manufacturing processes. We specialize in designing and implementing control systems for industries such as intralogistics, automotive and machinery.<br/><br/> Our team is a group of experienced and passionate engineers with not only a wealth of experience, but also a diversity of talents and skills. Each of us brings something unique, so that our projects are not only comprehensive, but also innovative and effective."
+            "description": "Firma SCD Automation została założona w 2021 roku w Poznaniu, z misją dostarczania innowacyjnych rozwiązań w zakresie usprawniania i automatyzacji procesów produkcyjnych. Specjalizujemy się w projektowaniu i wdrażaniu systemów sterowania dla branż takich jak intralogistyka, motoryzacja oraz maszyny.<br/>  Nasz zespół to grupa doświadczonych i pełnych pasji inżynierów, których cechuje nie tylko bogate doświadczenie, ale także różnorodność talentów i umiejętności. Każdy z nas wnosi coś wyjątkowego, dzięki czemu nasze projekty są nie tylko kompleksowe, ale także innowacyjne i efektywne."
+        },
+        "career": {
+            "title": "",
+            "description": "Nasza firma docenia zaangażowanie i innowacyjność, dlatego ciągle poszukujemy osób o różnorodnych umiejętnościach i doświadczeniu, które mogą wzbogacić nasz zespół. Bez względu na to, czy jesteś doświadczonym specjalistą w swojej dziedzinie, czy dopiero zaczynasz swoją karierę zawodową, zapewniamy wsparcie i możliwości rozwoju, abyś mógł osiągnąć swój pełny potencjał. Dołącz do naszej dynamicznej i inspirującej społeczności, gdzie Twoje talenty są cenione i rozwijane!<br/>Jeśli jesteś zainteresowany możesz aplikować przez:<br/>"
+        },
+        "contact": {
+            "title": "",
+            "description": ""
         }
     }
 }
