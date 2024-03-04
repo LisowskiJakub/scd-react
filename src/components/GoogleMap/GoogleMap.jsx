@@ -18,11 +18,11 @@ const center = {
 };
 
 
-
 function MyMap() {
+
     const { isLoaded } = useJsApiLoader({
-        id: "AIzaSyCZ8DzhF-Vv31a7jkB6Jhln8Z5gg69EX10",
-        googleMapsApiKey: "AIzaSyCZ8DzhF-Vv31a7jkB6Jhln8Z5gg69EX10"
+        id: import.meta.env.VITE_KEY,
+        googleMapsApiKey: import.meta.env.VITE_KEY
     })
 
     const [map, setMap] = React.useState(null)
