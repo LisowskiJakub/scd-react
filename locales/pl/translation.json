@@ -1,4 +1,5 @@
 {
+    "learn": "Zobacz więcej",
     "nav": {
         "projects": "Projekty",
         "services": "Usługi",
@@ -16,21 +17,40 @@
         "rights": "© 2024 SCD Automation sp. z o.o. Wszelkie prawa zastrzeżone."
     },
     "ourServices": {
-        "a": {
-            "title": "Electrical instalation",
-            "description": "We design and carry out electrical installations comprehensively. Starting from the conceptual and design phase, ending with implementation at the customer's site and measurements. "
+        "title": "Nasze usługi",
+        "electrical": {
+            "title": "Instalacje elektryczne",
+            "description": "Tworzymy oraz realizujemy instalacje elektryczne kompleksowo. Rozpoczynając od fazy koncepcyjnej oraz projektowej, a kończąc na realizacji u klienta oraz wykonaniu pomiarów."
         },
-        "b": {
-            "title": "Control systems",
-            "description": "We design and implement PLC software that controls the production flow. Our solutions are tailored to your needs. We specialize in intralogistics and automotive. "
+        "control": {
+            "title": "Systemy sterowania",
+            "description": "Projektujemy i wdrażamy oprogramowanie PLC, które kontroluje przepływ produkcji. Nasze rozwiązania są dostosowane do Twoich potrzeb. Specjalizujemy się w branży intralogistyki oraz automotive."
         },
-        "c": {
-            "title": "Support",
-            "description": "Maintaining the efficiency of the system and its operation is of the utmost importance. Let us take care of you. Our company provides 24/7 remote technical support and maintenance services. "
+        "support": {
+            "title": "Wsparcie",
+            "description": "Utrzymanie wydajności systemu i jego działania jest niezwykle ważne. Pozwól nam się tym zająć. Nasza firma zapewnia zdalne wsparcie techniczne i usługi konserwacyjne 24/7."
+        }
+    },
+    "offer": {
+        "Engineering": {
+            "title": "Faza koncepcji",
+            "description": "Wybór odpowiedniej technologii spełniającej wymagania projektu jest niezwykle ważny. Dzięki naszym koncepcjom sterowania zapewnisz bezpieczny początek swojego projektu."
         },
-        "d": {
-            "title": "R&D ",
-            "description": "Innovation is in our DNA. We focus on all the possibilities offered by technological advancement and invest to take advantage of them. Our offer includes only the most modern solutions."
+        "electrical": {
+            "title": "Instalacje elektryczne",
+            "description": "Standardowo zapewniamy projekt schematów elektrycznych, bierzemy odpowiedzialność za warunki dostawy materiałów oraz wykonujemy wymagane pomiary"
+        },
+        "programming": {
+            "title": "Programowanie PLC",
+            "description": "Współpracujemy z każdym typem przemysłowego sterownika PLC (Siemens, Beckhoff, Allen-Bradley) i integrujemy go z naszym rozwiązaniem HMI do monitorowania i zarządzania systemem."
+        },
+        "installations": {
+            "title": "Instalacje i uruchomienia",
+            "description": "Bierzemy pełną odpowiedzialność za Twój projekt. Nasz zespół nadzoruje wszystkie fazy projektu aż do uruchomienia i pełnej funkcjonalności systemu."
+        },
+        "support": {
+            "title": "Wsparcie posprzedażowe",
+            "description": "Zapewniamy zdalne wsparcie techniczne i usługi konserwacyjne 24/7. Części zamienne i żądania zmian można zamawiać w trakcie i po zakończeniu projektu."
         }
     },
     "robot": {
@@ -86,5 +106,20 @@
             "title": "",
             "description": ""
         }
-    }
+    },
+    "philosophy": {
+        "vision": {
+            "title": "Our VisionPL",
+            "description": "PLWe automate the world. We believe that automation improves work efficiency and the quality of our lives"
+        },
+        "mission": {
+            "title": "Our MissionPL",
+            "description": "PLWe focus on customers’ needs and support them in improving their processes by implementing the best solutions, tailored specifically to their requirements."
+        },
+        "values": {
+            "title": "Our valuesPL",
+            "description": "PLWe are an open minded, experienced and ambitious team. The pillars of our work are respect, competence, listening and reciprocal support."
+        }
+    },
+    "findUs": "Znajdź nas"
 }
