@@ -1,15 +1,140 @@
 import css from './GoogleMap.module.css'
 import React from 'react';
-import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
+import customMarker from '/marker.png'
 
-
-
+const greyStyle =
+    [
+        {
+            "featureType": "administrative",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "saturation": "-100"
+                }
+            ]
+        },
+        {
+            "featureType": "administrative.province",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "landscape",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "saturation": -100
+                },
+                {
+                    "lightness": 65
+                },
+                {
+                    "visibility": "on"
+                }
+            ]
+        },
+        {
+            "featureType": "poi",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "saturation": -100
+                },
+                {
+                    "lightness": "50"
+                },
+                {
+                    "visibility": "simplified"
+                }
+            ]
+        },
+        {
+            "featureType": "road",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "saturation": "-100"
+                }
+            ]
+        },
+        {
+            "featureType": "road.highway",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "visibility": "simplified"
+                }
+            ]
+        },
+        {
+            "featureType": "road.arterial",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "lightness": "30"
+                }
+            ]
+        },
+        {
+            "featureType": "road.local",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "lightness": "40"
+                }
+            ]
+        },
+        {
+            "featureType": "transit",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "saturation": -100
+                },
+                {
+                    "visibility": "simplified"
+                }
+            ]
+        },
+        {
+            "featureType": "water",
+            "elementType": "geometry",
+            "stylers": [
+                {
+                    "hue": "#ffff00"
+                },
+                {
+                    "lightness": -25
+                },
+                {
+                    "saturation": -97
+                }
+            ]
+        },
+        {
+            "featureType": "water",
+            "elementType": "labels",
+            "stylers": [
+                {
+                    "lightness": -25
+                },
+                {
+                    "saturation": -100
+                }
+            ]
+        }
+    ]
 
 
 const containerStyle = {
     width: '100vw',
-    height: '600px',
-    filter: 'grayscale(100%)'
+    height: '600px'
+
 };
 
 const center = {
@@ -28,12 +153,10 @@ function MyMap() {
     const [map, setMap] = React.useState(null)
 
     const onLoad = React.useCallback(function callback(map) {
-        // This is just an example of getting and using the map instance!!! don't just blindly copy!
-        const bounds = new window.google.maps.LatLngBounds(center);
-        map.fitBounds(bounds);
 
+        const bounds = new window.google.maps.LatLngBounds(center);
         setMap(map)
-        let marker = new google.maps.Marker({ position: center, map: map })
+
     }, [])
 
     const onUnmount = React.useCallback(function callback(map) {
@@ -42,14 +165,20 @@ function MyMap() {
 
     return isLoaded ? (
         <GoogleMap
+            options={{ styles: greyStyle }}
+
             mapContainerStyle={containerStyle}
+
             center={center}
-            zoom={4}
+            zoom={17}
             onLoad={onLoad}
             onUnmount={onUnmount}
         >
-            { /* Child components, such as markers, info windows, etc. */}
-            <></>
+            <Marker position={center} options={{
+                icon: customMarker,
+            }} />
+
+
         </GoogleMap>
     ) : <></>
 }
