@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import Facebook from '/svg/socials.svg#'
+import Facebook from '/svg/socials.svg'
 import { Trans } from 'react-i18next'
 
 

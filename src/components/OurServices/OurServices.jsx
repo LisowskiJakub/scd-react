@@ -1,20 +1,28 @@
 import { OurServicesItem } from "./OurServicesItem"
+import css from './OurServices.module.css'
+import cards from '../OurServices/OurServicesItems'
+import { Trans } from "react-i18next"
 
 
 
 
-export const OurServices = ({ elements }) => (
+export const OurServices = () => (
 
-    <section className=" ourServices">
-        <div className=" container ourServices__wrapper">
-            <div className="ourServices__picture"></div>
-            <div className="ourServices__content">
-                <h2 className=" ourServices__title">Our services</h2>
-                <ul className="ourServices__list">
-                    {elements.map(({ title, description }) => (
-                        <OurServicesItem title={title} description={description} key={title} />
-                    )
-                    )}
+    <section className={css.ourServices}>
+        <div className={css.wrapper}>
+            <div className={css.picture}>
+                <img src="packRobot.png"></img>
+            </div>
+            <div className={css.content}>
+                <h2 className={css.title}><Trans i18nKey="ourServices.title">Our services</Trans></h2>
+                <ul className={css.list}>
+
+                    < OurServicesItem transKey={"ourServices.electrical"} />
+                    < OurServicesItem transKey={"ourServices.control"} />
+                    < OurServicesItem transKey={"ourServices.support"} />
+
+
+
                 </ul>
             </div>
         </div>

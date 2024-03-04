@@ -1,7 +1,9 @@
 .footer {
 
     color: $second-font-color;
-    background-color: $second-background;
+    background: linear-gradient(0deg, #2A3941, #2A3941),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.06617) 100%);
+
 
     padding: 65px 0px 24px;
 

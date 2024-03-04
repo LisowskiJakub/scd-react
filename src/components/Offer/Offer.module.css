@@ -1,0 +1,12 @@
+.offer {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    width: 1080px;
+    align-items: center;
+}

@@ -3,6 +3,8 @@ import { HeroContact } from "./HeroContact/HeroContact"
 import { Trans } from "react-i18next"
 import css from "./Contact.module.css"
 import picture from "/building.png"
+import MyMap from "../GoogleMap/GoogleMap"
+
 
 export const Contact = () => (
 
@@ -17,7 +19,10 @@ export const Contact = () => (
             </p>
         </section>
         <HeroContact transKey={"heroMenu.contact"} picture={picture} />
-
+        <div className={css.findUs} >
+            <h2 className={css.subtitle}><Trans i18nKey="findUs"></Trans></h2>
+        </div>
+        <MyMap />
 
     </>
 )

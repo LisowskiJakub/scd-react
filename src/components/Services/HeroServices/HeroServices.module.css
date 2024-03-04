@@ -1,9 +1,3 @@
-a:link {
-    color: #EEE;
-    text-decoration: underline;
-
-}
-
 .hero {
     position: static;
     display: flex;
@@ -18,62 +12,45 @@ a:link {
 .wrapper {
     display: flex;
     justify-content: space-between;
+    position: relative;
     max-width: 1080px;
     height: 530px;
 }
 
 .content {
-    width: fit-content;
-    margin: auto;
-}
-
-.description {
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 38px;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-
-.item {
     display: flex;
-    align-items: flex-start;
-    margin-top: 24px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: left;
+    align-items: center;
 
-}
 
-.icon {
-    margin-right: 30px;
-    ;
 }
 
 .title {
-    font-size: 61px;
     display: none
 }
 
+.description {
+
+    width: 711px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
 .image {
-    margin: auto;
+    height: min-content;
     position: relative;
-    top: 64px;
-    left: -70px
+    top: 170px;
+    left: 50px;
 }
 
 .bg {
 
-    width: 50%;
     background: linear-gradient(180deg, #EEE 0%, rgba(255, 255, 255, 0) 47.6%), url('/Hero.png'), #eee 50% / cover no-repeat;
     background-size: cover;
     background-position: left top;
-}
-
-li>div>a:link {
-
-    text-decoration: underline;
 }

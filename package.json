@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.19.3",
+    "axios": "^1.6.7",
     "classnames": "^2.5.1",
+    "env": "^0.0.2",
     "fs": "^0.0.1-security",
     "i18next": "^23.9.0",
     "i18next-browser-languagedetector": "^7.2.0",

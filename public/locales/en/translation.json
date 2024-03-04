@@ -1,4 +1,5 @@
 {
+    "learn": "Learn more",
     "nav": {
         "projects": "Projects",
         "services": "Services",
@@ -16,21 +17,40 @@
         "rights": "© 2024 SCD Automation sp. z o.o. All Rights Reserved."
     },
     "ourServices": {
-        "a": {
+        "title": "Our services",
+        "electrical": {
             "title": "Electrical instalation",
             "description": "We design and carry out electrical installations comprehensively. Starting from the conceptual and design phase, ending with implementation at the customer's site and measurements. "
         },
-        "b": {
+        "control": {
             "title": "Control systems",
             "description": "We design and implement PLC software that controls the production flow. Our solutions are tailored to your needs. We specialize in intralogistics and automotive. "
         },
-        "c": {
+        "support": {
             "title": "Support",
             "description": "Maintaining the efficiency of the system and its operation is of the utmost importance. Let us take care of you. Our company provides 24/7 remote technical support and maintenance services. "
+        }
+    },
+    "offer": {
+        "engineering": {
+            "title": "Pre-engineering",
+            "description": "Choosing the right technology to meet the requirements of your project is extremely important. With our control concepts and comprehensive solutions, you will ensure a safe start to your project."
         },
-        "d": {
-            "title": "R&D ",
-            "description": "Innovation is in our DNA. We focus on all the possibilities offered by technological advancement and invest to take advantage of them. Our offer includes only the most modern solutions."
+        "electrical": {
+            "title": "Electrical engineering",
+            "description": "As a standard, we provide the design of electrical diagrams, take responsibility for the terms of delivery of materials, and perform the required measurements."
+        },
+        "programming": {
+            "title": "PLCprogramming",
+            "description": "We work with any type of industrial PLC (Siemens, Beckhoff, Allen-Bradley) and integrate it with our HMI solution to monitor and manage the automation system. "
+        },
+        "installations": {
+            "title": "Installation and Commissioning ",
+            "description": "We take full responsibility for your project. Our team supervises all phases of the project until the launch and full functionality of the system."
+        },
+        "support": {
+            "title": "After Sales support ",
+            "description": "24/7 remote technical support and maintenance services are provided. Spare parts and change requests can be ordered during and after a project."
         }
     },
     "robot": {
@@ -82,9 +102,28 @@
             "title": "",
             "description": "Our company values commitment and innovation, which is why we are constantly looking for people with diverse skills and experience to enrich our team. Whether you are an experienced professional in your field or just starting out in your career, we provide support and development opportunities to help you reach your full potential. Join our dynamic and inspiring community where your talents are valued and developed! <br/><br/>If you are interested you can apply through:<br/>"
         },
+        "services": {
+            "title": "",
+            "description": "We offer complex services in the field of electrical system design and PLC programming. Due to our experience and efforts, we are able to provide personalized solutions that meet the highest standards of quality and efficiency.<br/><br/>Our services include the design and implementation of electrical installations, including the preparation of schematics, installation and commissioning. In addition, we specialize in PLC programming, ensuring optimal control and automation of production processes."
+        },
         "contact": {
             "title": "",
             "description": ""
         }
-    }
+    },
+    "philosophy": {
+        "vision": {
+            "title": "Our Vision",
+            "description": "We automate the world. We believe that automation improves work efficiency and the quality of our lives"
+        },
+        "mission": {
+            "title": "Our Mission",
+            "description": "We focus on customers’ needs and support them in improving their processes by implementing the best solutions, tailored specifically to their requirements."
+        },
+        "values": {
+            "title": "Our values",
+            "description": "We are an open minded, experienced and ambitious team. The pillars of our work are respect, competence, listening and reciprocal support."
+        }
+    },
+    "findUs": "Find us"
 }

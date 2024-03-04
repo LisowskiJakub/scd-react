@@ -1,17 +1,17 @@
-import screen from '/svg/screen.svg'
+
 import { Trans } from 'react-i18next'
+import css from './OurServicesItem.module.css'
+export const OurServicesItem = ({ transKey }) => (
+    < li className={css.item} >
 
-export const OurServicesItem = ({ title, description }) => (
+        <h3 className={css.title}><Trans i18nKey={transKey + ".title"} ></Trans></h3>
+        <p className={css.description}>
+            <Trans i18nKey={transKey + ".description"}></Trans>
 
-    <li className="ourServices__item">
-        <img src={screen} />
-        <h3>{title}</h3>
-        <p>
-
-            {description}
+            {/* {transKey.description} */}
 
         </p>
-
-    </li>
+        <a className={css.link}><Trans i18nKey="learn"></Trans></a>
+    </li >
 
 )

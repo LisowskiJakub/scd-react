@@ -29,7 +29,7 @@ export const HeroContact = ({ picture }) => (
                     <li className={css.item}>
                         <img className={css.icon} src={mail} />
                         <div className={css.duns}>
-                            <a href="mailto:office@scd-automation.com">office@scd-automation.com</a>
+                            <a className={css.link} href="mailto:office@scd-automation.com">office@scd-automation.com</a>
                             <p>NIP:782-190-51-91</p>
                             <p>DUNS: 674393268</p>
                         </div>

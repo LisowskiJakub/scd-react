@@ -1,5 +1,15 @@
 * {
   box-sizing: border-box;
+  --main-font: "Inter", sans-serif;
+  --main-background: #EEE;
+  --second-background: #2A3941;
+  --main-font-color: #2A3941;
+  --second-font-color: #EEE;
+  --mark-color: #8CB4F7;
+  --accent-color: #0C5ADB;
+  --second-accent-color: #8CB4F7;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -31,6 +41,8 @@ a:active {
 
 p {
   margin: 0px;
+  padding: 0px;
+  text-align: left;
 }
 
 .container {
@@ -263,7 +275,7 @@ a.project__link.active {
 
 .footer {
   color: #EEE;
-  background-color: #2A3941;
+  background: linear-gradient(0deg, #2A3941, #2A3941), linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.06617) 100%);
   padding: 65px 0px 24px;
 }
 .footer__wrapper {
