@@ -93,6 +93,12 @@
             "description": "Our design process is based on an in-depth analysis of the customer's requirements and specifications, which allows us to precisely identify needs and deliver machines that are optimized for efficiency, performance and durability.<br/> Whether you need a machine for forming, packaging or material processing, our flexibility and professionalism ensure that we deliver a solution that perfectly meets your needs. "
         }
     },
+    "projectStats": {
+        "intralogistics": {
+            "title": "Sorting system",
+            "subtitle": "Scope of work"
+        }
+    },
     "heroMenu": {
         "aboutUs": {
             "title": "",
