@@ -1,0 +1,240 @@
+[
+    {
+        "id": "id-1",
+        "country": "PL",
+        "city": "Sochocin",
+        "business": "Other",
+        "stuff": [
+            ""
+        ],
+        "date": "12.2023 - 01.2024",
+        "position": {
+            "x": "200",
+            "y": ""
+        },
+        "positionW": {
+            "x": "550",
+            "y": "150"
+        }
+    },
+    {
+        "id": "id-2",
+        "country": "CZ",
+        "city": "Mlada Boleslav",
+        "business": "Automotive",
+        "stuff": [
+            "STAx station"
+        ],
+        "date": "09.2023 - 01.2024",
+        "position": {
+            "x": "",
+            "y": ""
+        },
+        "positionW": {
+            "x": "548",
+            "y": "160"
+        }
+    },
+    {
+        "id": "id-3",
+        "country": "PL",
+        "city": "Września",
+        "business": "Automotive",
+        "stuff": [
+            "Integration"
+        ],
+        "date": "07.2023 - ",
+        "position": {
+            "x": "",
+            "y": ""
+        },
+        "positionW": {
+            "x": "545",
+            "y": "146"
+        }
+    },
+    {
+        "id": "id-4",
+        "country": "DE",
+        "city": "Erfurt",
+        "business": "Intralogistic",
+        "stuff": [
+            "1x CBS Sorter"
+        ],
+        "date": "08.2023-10.2024",
+        "position": {
+            "x": "",
+            "y": ""
+        },
+        "positionW": {
+            "y": "150",
+            "x": "530"
+        }
+    },
+    {
+        "id": "id-5",
+        "country": "US",
+        "city": "Las Vegas",
+        "business": "Intralogistic",
+        "stuff": [
+            "1x PTS Sorter"
+        ],
+        "date": "09.2023-01.2024",
+        "position": {
+            "x": "",
+            "y": ""
+        },
+        "positionW": {
+            "x": "150",
+            "y": "220"
+        }
+    },
+    {
+        "id": "id-6",
+        "country": "US",
+        "city": "Newville",
+        "business": "Intralogistic",
+        "stuff": [
+            "1x PTS Sorter"
+        ],
+        "date": "06.2023-08.2023",
+        "position": {
+            "x": "",
+            "y": ""
+        },
+        "positionW": {
+            "x": "265",
+            "y": "190"
+        }
+    },
+    {
+        "id": "id-7",
+        "country": "US",
+        "city": "Chicago",
+        "business": "Intralogistic",
+        "stuff": [
+            "1x Shoe Sorter"
+        ],
+        "date": "03.2023-07.2023",
+        "position": {
+            "x": "265",
+            "y": "170"
+        },
+        "positionW": {
+            "x": "250",
+            "y": "165"
+        }
+    },
+    {
+        "id": "id-8",
+        "country": "US",
+        "city": "Wilkes - Barre",
+        "business": "Interlogistic",
+        "stuff": [
+            "1x Crossbelt Sorter"
+        ],
+        "date": "03.2023-07.2024",
+        "position": {
+            "x": "",
+            "y": ""
+        },
+        "positionW": {
+            "x": "270",
+            "y": "180"
+        }
+    },
+    {
+        "id": "id-9",
+        "country": "FR",
+        "city": "Lyon",
+        "business": "Intralogistic",
+        "stuff": [
+            "2x PTS Sorter",
+            "1x CBS Sorter",
+            "1x Conveying system"
+        ],
+        "date": "01.2023-07.2023",
+        "position": {
+            "x": "",
+            "y": ""
+        },
+        "positionW": {
+            "x": "500",
+            "y": "190"
+        }
+    },
+    {
+        "id": "id-10",
+        "country": "PL",
+        "city": "Ostrów Wlkp.",
+        "business": "Industry machines",
+        "stuff": [
+            "1x Machine"
+        ],
+        "date": "07.2022-10.2022",
+        "position": {
+            "x": "",
+            "y": ""
+        },
+        "positionW": {
+            "x": "535",
+            "y": "158"
+        }
+    },
+    {
+        "id": "id-11",
+        "country": "PL",
+        "city": "Wrocław",
+        "business": "Intralogistic",
+        "stuff": [
+            "2x PTS Sorter",
+            "1x CBS Sorter",
+            "1x Conveying system"
+        ],
+        "date": "06.2022-06.2022",
+        "position": {
+            "x": "",
+            "y": ""
+        },
+        "positionW": {
+            "x": "532",
+            "y": "168"
+        }
+    },
+    {
+        "id": "id-12",
+        "country": "DE",
+        "city": "Bergkamen",
+        "business": "Intralogistic",
+        "stuff": [
+            "Conveying systems"
+        ],
+        "date": "12.2023-01.2024",
+        "position": {
+            "x": "",
+            "y": ""
+        },
+        "positionW": {
+            "x": "518",
+            "y": "152"
+        }
+    },
+    {
+        "id": "id-13",
+        "country": "DE",
+        "city": "Hamm",
+        "business": "Intralogistic",
+        "stuff": [
+            "3x CBS Sorter"
+        ],
+        "date": "01.2022-09.2022",
+        "position": {
+            "x": "",
+            "y": ""
+        },
+        "positionW": {
+            "x": "510",
+            "y": "159"
+        }
+    }
+]

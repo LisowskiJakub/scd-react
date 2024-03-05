@@ -3,7 +3,7 @@ import { Trans } from "react-i18next"
 import css from "./Projects.module.css"
 import { ProjectsInfo } from "../ProjectsInfo/ProjectsInfo"
 import { Outlet } from "react-router-dom"
-
+import { WorldMap } from "../WorldMap/WorldMap"
 export const Projects = () => (
 
     <>
@@ -22,6 +22,6 @@ export const Projects = () => (
         <ProjectsInfo>
             <Outlet></Outlet>
         </ProjectsInfo>
-
+        <WorldMap />
     </>
 )
