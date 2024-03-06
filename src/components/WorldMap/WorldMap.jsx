@@ -26,12 +26,29 @@ export const WorldMap = () => {
             </div>
             <div className={css.picture}>
                 <img src={map}></img>
-                {places.map(({ positionW, id }) => (<div key={id} className={css.dot} style={{
-                    top: `${positionW.y}px`, left: `${positionW.x}px`
-                }}>
-                    {console.log(positionW.x)}
+                {console.log(map == world)}
+                {map == world ?
+                    <>
+                        {places.map(({ positionW, id }) => (<div key={id} className={css.dot} style={{
 
-                </div>))}
+                            top: `${positionW.y}px`, left: `${positionW.x}px`
+                        }}>
+                            {console.log("świat")}
+                        </div>))}
+                    </>
+                    : <>
+
+                        {places.filter(el => (map == usa) ? (el.country == "US") : (el.country !== "US")
+                        )
+                            .map(({ position, id }) => (<div key={id} className={css.dot} style={{
+
+                                top: `${position.y}px`, left: `${position.x}px`
+                            }}>
+                            </div>))}
+                    </>
+                }
+
+
 
             </div>
             <ul className={css.list}>
