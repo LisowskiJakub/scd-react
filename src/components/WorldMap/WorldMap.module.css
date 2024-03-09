@@ -39,21 +39,27 @@
     position: relative;
 }
 
-.dot {
+.wrapper {
     position: absolute;
     top: 0px;
+}
+
+.dot {
+
     border-radius: 50px;
     width: 24px;
     height: 24px;
     background-color: var(--accent-color);
     opacity: 0.7;
     scale: 1;
-    transition: scale 250ms ease-in-out;
+    transition: opacity 250ms ease-in-out;
+    cursor: pointer;
 }
 
 .dot:hover {
-    cursor: pointer;
-    scale: 1.2;
+    opacity: 1;
+    scale: 1.1;
+
 }
 
 .item {
@@ -85,8 +91,36 @@
     list-style: none;
 }
 
+.description {
+    opacity: 0;
+    display: none;
+    flex-direction: row;
+    position: absolute;
+    bottom: 30px;
+    width: max-content;
+    padding: 10px 38px;
+    border-radius: 20px;
+    background-color: var(--main-background);
+    z-index: 1000;
+    transition: opacity 250ms ease-in-out;
+    box-shadow: 0px 20px 20px 0px #00000014;
+
+}
+
+.wrapper .dot:hover+.description {
+    opacity: 1;
+    display: flex;
+}
+
 
 
 .isActive {
     border: 1px solid var(--accent-color)
+}
+
+@initial {
+    .description {
+        opacity: 0;
+
+    }
 }

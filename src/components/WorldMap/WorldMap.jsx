@@ -6,9 +6,19 @@ import usa from '/maps/usa.png'
 import europe from '/maps/europe.png'
 import places from './data.json'
 
+const PlaceItem = ({ position, country, city }) => (
+    <div className={css.wrapper} style={{
+        top: `${position.y}px`, left: `${position.x}px`
+    }}>
+        <div className={css.dot} >
+        </div>
+        <div className={css.description}>
+            {country}, {city}
+        </div>
+    </div>
+)
 
-
-export const WorldMap = () => {
+export const WorldMap = ({ simple = true }) => {
 
     const [map, setMap] = useState(world);
 
@@ -17,60 +27,67 @@ export const WorldMap = () => {
         console.log(e)
     )
 
+
     return (
-        <section className={css.map}>
-            <div className={css.menu}>
-                <button className={css.button} onClick={() => setMap(world)} >World</button>
-                <button className={css.button} onClick={() => setMap(europe)} >Europe</button>
-                <button className={css.button} onClick={() => setMap(usa)} >United States</button>
-            </div>
+        simple ? <section className={css.map}>
             <div className={css.picture}>
                 <img src={map}></img>
-                {console.log(map == world)}
-                {map == world ?
-                    <>
-                        {places.map(({ positionW, id }) => (<div key={id} className={css.dot} style={{
 
-                            top: `${positionW.y}px`, left: `${positionW.x}px`
-                        }}>
-                            {console.log("świat")}
-                        </div>))}
-                    </>
-                    : <>
+                {places.map(({ positionW, id, country, city }) => (
 
-                        {places.filter(el => (map == usa) ? (el.country == "US") : (el.country !== "US")
-                        )
-                            .map(({ position, id }) => (<div key={id} className={css.dot} style={{
-
-                                top: `${position.y}px`, left: `${position.x}px`
-                            }}>
-                            </div>))}
-                    </>
-                }
-
-
-
-            </div>
-            <ul className={css.list}>
-                {places.map(({ country, city, id, business, stuff, date }) => (
-                    <li key={id} className={css.item} onClick={handleClick}>
-                        <div className={css.country}>{country}</div>
-                        < div className={css.city}>{city}</div>
-                        < div className={css.business}>{business}</div>
-
-                        <ul className={css.stuff}>{
-                            stuff.map((el) => (<li className={css.stuffItem}>{el}</li>))}
-                        </ul>
-                        < div className={css.date}>{date}</div>
-                    </li>
-
+                    <PlaceItem position={positionW} key={id} country={country} city={city} />
                 ))
 
                 }
+            </div>
+        </section >
+            : <section className={css.map}>
+                <div className={css.menu}>
+                    <button className={css.button} onClick={() => setMap(world)} >World</button>
+                    <button className={css.button} onClick={() => setMap(europe)} >Europe</button>
+                    <button className={css.button} onClick={() => setMap(usa)} >United States</button>
+                </div>
+                <div className={css.picture}>
+                    <img src={map}></img>
 
-            </ul>
+                    {map == world ?
+                        <>
+                            {places.map(({ positionW, id, country, city }) => (
+                                <PlaceItem position={positionW} key={id} country={country} city={city} />
+                            ))}
+                        </>
+                        : <>
+                            {places.filter(el => (map == usa) ? (el.country == "US") : (el.country !== "US")
+                            )
+                                .map(({ position, id, country, city }) => (
+                                    <PlaceItem position={position} key={id} country={country} city={city} />
+                                ))}
+                        </>
+                    }
 
-        </section>
+
+
+                </div>
+                <ul className={css.list}>
+                    {places.map(({ country, city, id, business, stuff, date }) => (
+                        <li key={id} className={css.item} onClick={handleClick}>
+                            <div className={css.country}>{country}</div>
+                            < div className={css.city}>{city}</div>
+                            < div className={css.business}>{business}</div>
+
+                            <ul className={css.stuff}>{
+                                stuff.map((el) => (<li className={css.stuffItem}>{el}</li>))}
+                            </ul>
+                            < div className={css.date}>{date}</div>
+                        </li>
+
+                    ))
+
+                    }
+
+                </ul>
+
+            </section>
     )
 }
 

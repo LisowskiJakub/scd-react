@@ -41,7 +41,7 @@ function App() {
           <Route path="Contact" element={<Contact />} />
           <Route path="*" element={<Home />} />
         </Routes>
-        <h1></h1>
+
         <Footer />
 
       </ThemeProvider>

@@ -22,6 +22,6 @@ export const Projects = () => (
         <ProjectsInfo>
             <Outlet></Outlet>
         </ProjectsInfo>
-        <WorldMap />
+        <WorldMap simple={false} />
     </>
 )
