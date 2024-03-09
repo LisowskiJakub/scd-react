@@ -93,6 +93,12 @@
             "description": "Nasz proces projektowania jest oparty na dogłębnej analizie wymagań i specyfikacji klienta, co pozwala nam precyzyjnie określić potrzeby oraz dostarczyć maszyny, które są zoptymalizowane pod kątem efektywności, wydajności i trwałości.  Nie ważne, czy potrzebujesz maszyny do obróbki, pakowania, czy przetwarzania materiałów - nasza elastyczność i profesjonalizm gwarantują, że dostarczymy Ci rozwiązanie, które idealnie odpowiada Twoim potrzebom. "
         }
     },
+    "projectStats": {
+        "intralogistics": {
+            "title": "PL",
+            "subtitle": "PL"
+        }
+    },
     "heroMenu": {
         "aboutUs": {
             "title": "",
@@ -101,6 +107,10 @@
         "career": {
             "title": "",
             "description": "Nasza firma docenia zaangażowanie i innowacyjność, dlatego ciągle poszukujemy osób o różnorodnych umiejętnościach i doświadczeniu, które mogą wzbogacić nasz zespół. Bez względu na to, czy jesteś doświadczonym specjalistą w swojej dziedzinie, czy dopiero zaczynasz swoją karierę zawodową, zapewniamy wsparcie i możliwości rozwoju, abyś mógł osiągnąć swój pełny potencjał. Dołącz do naszej dynamicznej i inspirującej społeczności, gdzie Twoje talenty są cenione i rozwijane!<br/>Jeśli jesteś zainteresowany możesz aplikować przez:<br/>"
+        },
+        "services": {
+            "title": "",
+            "description": "Oferujemy kompleksowe usługi w zakresie projektowania instalacji elektrycznych oraz programowania sterowników PLC. Dzięki doświadczeniu i zaangażowaniu jesteśmy w stanie dostarczyć spersonalizowane rozwiązania, które spełniają najwyższe standardy jakości i efektywności.<br/><br/> Nasze usługi obejmują projektowanie i implementację instalacji elektrycznych, w tym przygotowanie schematów, montaż oraz uruchomienie. Ponadto, specjalizujemy się w programowaniu sterowników PLC, zapewniając optymalną kontrolę i automatyzację procesów produkcyjnych."
         },
         "contact": {
             "title": "",
@@ -120,6 +130,18 @@
             "title": "Our valuesPL",
             "description": "PLWe are an open minded, experienced and ambitious team. The pillars of our work are respect, competence, listening and reciprocal support."
         }
+    },
+        "services": {
+            "electrical": {
+                "title": "Instalacje elektryczne",
+                "description": "Zajmujemy się kompleksowym tworzeniem oraz realizacją instalacji elektrycznych. Nasza oferta obejmuje pełen zakres usług, począwszy od fazy koncepcyjnej i projektowej, poprzez wykonanie instalacji u klienta, aż po przeprowadzenie niezbędnych pomiarów i testów. W etapie koncepcyjnym i projektowym pracujemy z klientami, aby zrozumieć ich potrzeby i wymagania. Dzięki temu możemy stworzyć spersonalizowane rozwiązania, które idealnie odpowiadają ich oczekiwaniom<br/><br/>. Nasze wykwalifikowane zespoły techniczne zapewniają sprawną i profesjonalną instalację, zgodnie z najwyższymi standardami jakości. Stawiamy na terminowość i dokładność. <br/><br/>Po zakończeniu instalacji dokonujemy kompleksowych pomiarów i testów, aby upewnić się, że wszystkie elementy działają zgodnie z oczekiwaniami i są zgodne z obowiązującymi normami i przepisami."
+            },
+            "control": {
+                "title": "Systemy sterowania",
+                "description": "Specjalizujemy się w projektowaniu i wdrażaniu oprogramowania PLC, w tym autorskiego rozwiązania, które precyzyjnie kontroluje i optymalizuje przepływ produkcji. Dodatkowo, tworzymy również własną wizualizację, umożliwiającą klarowne i intuicyjne monitorowanie oraz zarządzanie procesami produkcyjnymi. <br/><br/>Nasze dedykowane narzędzia są skonstruowane tak, aby zapewnić elastyczność, niezawodność i łatwość konfiguracji, dostosowując się do różnorodnych potrzeb. Dzięki skoncentrowaniu się na branżach intralogistyki oraz motoryzacji, przynosimy specjalistyczną wiedzę i innowacyjne podejście do każdego projektu, umożliwiając wykorzystanie najnowszych technologii."          },
+            "support": {
+                "title": "Wsparcie",
+                "description": "Zapewnienie niezawodności i ciągłości działania systemu jest kluczowe dla efektywności produkcji. Dlatego chcemy zająć się tą kwestią za Ciebie. Nasza firma oferuje kompleksowe usługi wsparcia technicznego oraz konserwacji, dostępne 24 godziny na dobę, 7 dni w tygodniu. Niezależnie od problemu, nasz wykwalifikowany zespół techniczny jest gotowy, aby zapewnić Ci pomoc zdalną, gwarantując ciągłość i wydajność systemu."  }
     },
     "findUs": "Znajdź nas"
 }
