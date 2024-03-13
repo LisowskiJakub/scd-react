@@ -72,7 +72,8 @@
         },
         "career": {
             "title": "Dołącz do SCD Automation",
-            "description": "“Nie wybieraj ludzi do twojego zespołu, a potem próbuj uczyć ich pasji. Znajdź ludzi, którzy już mają pasję, a potem zbuduj z nimi zespół.” - Dave Ramsey . "
+            "description": "“Nie wybieraj ludzi do twojego zespołu, a potem próbuj uczyć ich pasji. Znajdź ludzi, którzy już mają pasję, a potem zbuduj z nimi zespół.” - Dave Ramsey .",
+            "linkedin": "Możesz również aplikować na naszym profilu LinkedIn:"
         },
         "contact": {
             "title": "Bądźmy w kontakcie",
@@ -131,17 +132,19 @@
             "description": "PLWe are an open minded, experienced and ambitious team. The pillars of our work are respect, competence, listening and reciprocal support."
         }
     },
-        "services": {
-            "electrical": {
-                "title": "Instalacje elektryczne",
-                "description": "Zajmujemy się kompleksowym tworzeniem oraz realizacją instalacji elektrycznych. Nasza oferta obejmuje pełen zakres usług, począwszy od fazy koncepcyjnej i projektowej, poprzez wykonanie instalacji u klienta, aż po przeprowadzenie niezbędnych pomiarów i testów. W etapie koncepcyjnym i projektowym pracujemy z klientami, aby zrozumieć ich potrzeby i wymagania. Dzięki temu możemy stworzyć spersonalizowane rozwiązania, które idealnie odpowiadają ich oczekiwaniom<br/><br/>. Nasze wykwalifikowane zespoły techniczne zapewniają sprawną i profesjonalną instalację, zgodnie z najwyższymi standardami jakości. Stawiamy na terminowość i dokładność. <br/><br/>Po zakończeniu instalacji dokonujemy kompleksowych pomiarów i testów, aby upewnić się, że wszystkie elementy działają zgodnie z oczekiwaniami i są zgodne z obowiązującymi normami i przepisami."
-            },
-            "control": {
-                "title": "Systemy sterowania",
-                "description": "Specjalizujemy się w projektowaniu i wdrażaniu oprogramowania PLC, w tym autorskiego rozwiązania, które precyzyjnie kontroluje i optymalizuje przepływ produkcji. Dodatkowo, tworzymy również własną wizualizację, umożliwiającą klarowne i intuicyjne monitorowanie oraz zarządzanie procesami produkcyjnymi. <br/><br/>Nasze dedykowane narzędzia są skonstruowane tak, aby zapewnić elastyczność, niezawodność i łatwość konfiguracji, dostosowując się do różnorodnych potrzeb. Dzięki skoncentrowaniu się na branżach intralogistyki oraz motoryzacji, przynosimy specjalistyczną wiedzę i innowacyjne podejście do każdego projektu, umożliwiając wykorzystanie najnowszych technologii."          },
-            "support": {
-                "title": "Wsparcie",
-                "description": "Zapewnienie niezawodności i ciągłości działania systemu jest kluczowe dla efektywności produkcji. Dlatego chcemy zająć się tą kwestią za Ciebie. Nasza firma oferuje kompleksowe usługi wsparcia technicznego oraz konserwacji, dostępne 24 godziny na dobę, 7 dni w tygodniu. Niezależnie od problemu, nasz wykwalifikowany zespół techniczny jest gotowy, aby zapewnić Ci pomoc zdalną, gwarantując ciągłość i wydajność systemu."  }
+    "services": {
+        "electrical": {
+            "title": "Instalacje elektryczne",
+            "description": "Zajmujemy się kompleksowym tworzeniem oraz realizacją instalacji elektrycznych. Nasza oferta obejmuje pełen zakres usług, począwszy od fazy koncepcyjnej i projektowej, poprzez wykonanie instalacji u klienta, aż po przeprowadzenie niezbędnych pomiarów i testów. W etapie koncepcyjnym i projektowym pracujemy z klientami, aby zrozumieć ich potrzeby i wymagania. Dzięki temu możemy stworzyć spersonalizowane rozwiązania, które idealnie odpowiadają ich oczekiwaniom<br/><br/>. Nasze wykwalifikowane zespoły techniczne zapewniają sprawną i profesjonalną instalację, zgodnie z najwyższymi standardami jakości. Stawiamy na terminowość i dokładność. <br/><br/>Po zakończeniu instalacji dokonujemy kompleksowych pomiarów i testów, aby upewnić się, że wszystkie elementy działają zgodnie z oczekiwaniami i są zgodne z obowiązującymi normami i przepisami."
+        },
+        "control": {
+            "title": "Systemy sterowania",
+            "description": "Specjalizujemy się w projektowaniu i wdrażaniu oprogramowania PLC, w tym autorskiego rozwiązania, które precyzyjnie kontroluje i optymalizuje przepływ produkcji. Dodatkowo, tworzymy również własną wizualizację, umożliwiającą klarowne i intuicyjne monitorowanie oraz zarządzanie procesami produkcyjnymi. <br/><br/>Nasze dedykowane narzędzia są skonstruowane tak, aby zapewnić elastyczność, niezawodność i łatwość konfiguracji, dostosowując się do różnorodnych potrzeb. Dzięki skoncentrowaniu się na branżach intralogistyki oraz motoryzacji, przynosimy specjalistyczną wiedzę i innowacyjne podejście do każdego projektu, umożliwiając wykorzystanie najnowszych technologii."
+        },
+        "support": {
+            "title": "Wsparcie",
+            "description": "Zapewnienie niezawodności i ciągłości działania systemu jest kluczowe dla efektywności produkcji. Dlatego chcemy zająć się tą kwestią za Ciebie. Nasza firma oferuje kompleksowe usługi wsparcia technicznego oraz konserwacji, dostępne 24 godziny na dobę, 7 dni w tygodniu. Niezależnie od problemu, nasz wykwalifikowany zespół techniczny jest gotowy, aby zapewnić Ci pomoc zdalną, gwarantując ciągłość i wydajność systemu."
+        }
     },
     "findUs": "Znajdź nas"
 }
