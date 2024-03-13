@@ -152,19 +152,73 @@
             "id": "1",
             "month": "December",
             "year": "2021",
-            "desciption": "Establishment - Story begin"
+            "description": "Establishment - Story begin"
         },
         "2": {
             "id": "2",
             "month": "January",
-            "year": "2021",
-            "desciption": "1st office in Poznań"
+            "year": "2022",
+            "description": "1st office in Poznań<br/>Started PLC department - 4 PLC"
         },
         "3": {
             "id": "3",
-            "month": "February",
-            "year": "2021",
-            "desciption": "Dupa dupa dupa"
+            "month": "January",
+            "year": "2022",
+            "description": "1st intra-logistics project"
+        },
+        "4": {
+            "id": "3",
+            "month": "April",
+            "year": "2022",
+            "description": "Started Electrical Engineering Department<br/>6 PLC, 2 Electric Engineering"
+        },
+        "5": {
+            "id": "5",
+            "month": "July",
+            "year": "2022",
+            "description": "1st machinery project"
+        },
+        "6": {
+            "id": "6",
+            "month": "September",
+            "year": "2022",
+            "description": "1st machinery project"
+        },
+        "7": {
+            "id": "7",
+            "month": "January",
+            "year": "2023",
+            "description": "New office in Poznań<br/>1 Administration, 10 PLC, 3 Electric Engineering"
+        },
+        "8": {
+            "id": "8",
+            "month": "March",
+            "year": "2023",
+            "description": "Team increase: 1 Administration, 11 PLC,<br/>4 Electric Engineering, 3R&D"
+        },
+        "9": {
+            "id": "9",
+            "month": "September",
+            "year": "2023",
+            "description": "September Vision System development"
+        },
+        "10": {
+            "id": "10",
+            "month": "September",
+            "year": "2023",
+            "description": "1st partnership agreement"
+        },
+        "11": {
+            "id": "11",
+            "month": "November",
+            "year": "2023",
+            "description": "PLC HMI development"
+        },
+        "12": {
+            "id": "12",
+            "month": "December",
+            "year": "2023",
+            "description": "Digital Twin Virtual commissioning"
         }
     }
 }
