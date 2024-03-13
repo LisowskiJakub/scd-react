@@ -21,7 +21,7 @@ const PlaceItem = ({ position, country, city }) => (
 export const WorldMap = ({ simple = true }) => {
 
     const [map, setMap] = useState(world);
-
+    console.log(places)
 
     const handleClick = (e) => (
         console.log(e)
@@ -43,9 +43,9 @@ export const WorldMap = ({ simple = true }) => {
         </section >
             : <section className={css.map}>
                 <div className={css.menu}>
-                    <button className={css.button} onClick={() => setMap(world)} >World</button>
-                    <button className={css.button} onClick={() => setMap(europe)} >Europe</button>
-                    <button className={css.button} onClick={() => setMap(usa)} >United States</button>
+                    <button className={`${css.button} ${map == world && css.active}`} onClick={() => setMap(world)} >World</button>
+                    <button className={`${css.button} ${map == europe && css.active}`} onClick={() => setMap(europe)} >Europe</button>
+                    <button className={`${css.button} ${map == usa && css.active}`} onClick={() => setMap(usa)} >United States</button>
                 </div>
                 <div className={css.picture}>
                     <img src={map}></img>

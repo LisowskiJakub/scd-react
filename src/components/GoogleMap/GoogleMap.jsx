@@ -1,7 +1,7 @@
 import css from './GoogleMap.module.css'
 import React from 'react';
 import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
-import customMarker from '/marker.png'
+import customMarker from '/src/assets/img/marker.png'
 
 const greyStyle =
     [
@@ -165,10 +165,11 @@ function MyMap() {
 
     return isLoaded ? (
         <GoogleMap
-            options={{ styles: greyStyle }}
-
+            options={{
+                styles: greyStyle,
+                disableDefaultUI: true
+            }}
             mapContainerStyle={containerStyle}
-            disableDefaultUI={true}
             center={center}
             zoom={17}
             onLoad={onLoad}

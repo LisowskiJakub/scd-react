@@ -146,5 +146,25 @@
             "description": "Ensuring the reliability and continuity of your system is critical to production efficiency. That's why we want to take care of this issue for you. Our company offers comprehensive technical support and maintenance services, available 24 hours a day, 7 days a week.<br/><br/> Regardless of the problem, our skilled technical team is ready to provide you with remote assistance to guarantee system integrity and performance. In addition, we also offer preventive maintenance services to minimize the risk of failure by regularly inspecting and maintaining your system, keeping it running optimally at all times."
         }
     },
-    "findUs": "Find us"
+    "findUs": "Find us",
+    "events": {
+        "1": {
+            "id": "1",
+            "month": "December",
+            "year": "2021",
+            "desciption": "Establishment - Story begin"
+        },
+        "2": {
+            "id": "2",
+            "month": "January",
+            "year": "2021",
+            "desciption": "1st office in Poznań"
+        },
+        "3": {
+            "id": "3",
+            "month": "February",
+            "year": "2021",
+            "desciption": "Dupa dupa dupa"
+        }
+    }
 }

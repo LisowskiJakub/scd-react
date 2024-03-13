@@ -4,8 +4,10 @@ import { Trans } from "react-i18next"
 import css from "./Career.module.css"
 import picture from "/office.png"
 import linkedin from "/src/assets/svg/test.svg"
-export const Career = () => (
 
+
+
+export const Career = () => (
     <>
         <section className={css.section}>
             <h2 className={css.title}>
@@ -26,8 +28,5 @@ export const Career = () => (
                 <a className={css.link} href="https:\\www.linkedin.com/company/scd-automation/about/">www.linkedin.com/company/scd-automation/about/</a>
             </div>
         </section>
-
-
-
     </>
 )
