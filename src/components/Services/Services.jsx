@@ -23,7 +23,7 @@ export const Services = () => (
         <section className={css.cardsSection}>
             <Card picture={electricImg} langKey="services.electrical" />
             <Card picture={controlImg} position="right" langKey="services.control" />
-            <Card picture={laptopImg} langKey="services.support" />
+            <Card picture={laptopImg} langKey="services.support" bottom />
         </section>
     </>
 )

@@ -21,22 +21,20 @@ export const TimeLine = () => {
     }, [])
 
     return (
-        <>
+        <section className={css.timeLine}>
 
             <h2 className={css.title}>
-                <Trans i18nKey='timeLine.title'>xxx</Trans>
+                <Trans i18nKey='timeLine.title'></Trans>
             </h2>
 
             {console.log(events)}
             {events.map((event) => (
                 <>
-
                     <TimeLineElement langKey={event} key={event.id}></TimeLineElement>
-
                 </>
             ))}
 
-        </>
+        </section>
 
     )
 }

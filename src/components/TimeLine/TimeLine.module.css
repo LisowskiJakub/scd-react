@@ -1,0 +1,7 @@
+.timeLine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1080px;
+    padding: 100px 0;
+}
