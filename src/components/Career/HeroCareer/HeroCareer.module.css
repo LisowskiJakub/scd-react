@@ -46,9 +46,13 @@
     color: #EEE;
 }
 
-content>a.email {
+.content>a.email {
     text-decoration: underline;
 
+}
+
+.icon {
+    margin-right: 20px;
 }
 
 .image {

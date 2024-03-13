@@ -117,10 +117,3 @@
 .isActive {
     border: 1px solid var(--accent-color)
 }
-
-@initial {
-    .description {
-        opacity: 0;
-
-    }
-}

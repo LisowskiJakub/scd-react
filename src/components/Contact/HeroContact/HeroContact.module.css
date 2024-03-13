@@ -1,8 +1,14 @@
 a:link {
+    display: flex;
     color: #EEE;
     text-decoration: underline;
-
+    transition: color 0.25s ease-in-out;
 }
+
+a:link:hover {
+    color: var(--second-accent-color)
+}
+
 
 .hero {
     position: static;
@@ -38,6 +44,7 @@ a:link {
 
 .item {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     margin-top: 24px;
     font-size: 20px;
@@ -48,9 +55,11 @@ a:link {
 
 }
 
+
+
 .icon {
     margin-right: 30px;
-    ;
+
 }
 
 .title {

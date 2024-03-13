@@ -1,9 +1,9 @@
 import { Trans } from 'react-i18next'
 import css from "./HeroContact.module.css"
-import mail from '/mail.svg'
-import location from '/location.svg'
-import phone from '/phone.svg'
-import { theme } from '../../../Theme'
+import mail from '/src/assets/svg/mail.svg'
+import location from '/src/assets/svg/location.svg'
+import phone from '/src/assets/svg/phone.svg'
+
 
 
 
@@ -23,7 +23,10 @@ export const HeroContact = ({ picture }) => (
                             Poland</p>
                     </li>
                     <li className={css.item}>
-                        <img className={css.icon} src={phone} /><p>+48 668 875 710</p>
+                        <a className={css.link} href="tel:+48668875710">
+                            <img className={css.icon} src={phone} />
+                            <p>+48 668 875 710</p>
+                        </a>
                     </li>
 
                     <li className={css.item}>

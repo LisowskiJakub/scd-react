@@ -168,7 +168,7 @@ function MyMap() {
             options={{ styles: greyStyle }}
 
             mapContainerStyle={containerStyle}
-
+            disableDefaultUI={true}
             center={center}
             zoom={17}
             onLoad={onLoad}
