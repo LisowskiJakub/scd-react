@@ -21,10 +21,11 @@
     line-height: 30px;
 }
 
-.leftSide {
-    transform: translateX(-100%)
+.element:nth-child(odd) {
+    transform: translateX(-50%) translateX(-60px);
+    text-align: right;
 }
 
-.rightSide {
-    transform: translateX(100%)
+.element:nth-child(even) {
+    transform: translateX(50%) translateX(60px);
 }

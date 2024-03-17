@@ -4,6 +4,11 @@ import css from "./Projects.module.css"
 import { ProjectsInfo } from "../ProjectsInfo/ProjectsInfo"
 import { Outlet } from "react-router-dom"
 import { WorldMap } from "../WorldMap/WorldMap"
+import { Gallery } from "../Gallery/Gallery"
+
+
+
+
 export const Projects = () => (
 
     <>
@@ -22,6 +27,7 @@ export const Projects = () => (
         <ProjectsInfo>
             <Outlet></Outlet>
         </ProjectsInfo>
+        <Gallery />
         <WorldMap simple={false} />
     </>
 )

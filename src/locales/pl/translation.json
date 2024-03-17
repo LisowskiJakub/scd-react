@@ -31,6 +31,9 @@
             "description": "Utrzymanie wydajności systemu i jego działania jest niezwykle ważne. Pozwól nam się tym zająć. Nasza firma zapewnia zdalne wsparcie techniczne i usługi konserwacyjne 24/7."
         }
     },
+    "carusel": {
+        "title": "Zaufali nam"
+    },
     "offer": {
         "Engineering": {
             "title": "Faza koncepcji",
@@ -146,5 +149,79 @@
             "description": "Zapewnienie niezawodności i ciągłości działania systemu jest kluczowe dla efektywności produkcji. Dlatego chcemy zająć się tą kwestią za Ciebie. Nasza firma oferuje kompleksowe usługi wsparcia technicznego oraz konserwacji, dostępne 24 godziny na dobę, 7 dni w tygodniu. Niezależnie od problemu, nasz wykwalifikowany zespół techniczny jest gotowy, aby zapewnić Ci pomoc zdalną, gwarantując ciągłość i wydajność systemu."
         }
     },
-    "findUs": "Znajdź nas"
+    "findUs": "Znajdź nas",
+    "events": {
+        "1": {
+            "id": "1",
+            "month": "Grudzień",
+            "year": "2021",
+            "description": "Założenie firmy - Początek działalności"
+        },
+        "2": {
+            "id": "2",
+            "month": "Styczeń",
+            "year": "2022",
+            "description": "Pierwsze biuro w Poznaniu<br/>Uruchomienie działu PLC - 4 PLC"
+        },
+        "3": {
+            "id": "3",
+            "month": "Styczeń",
+            "year": "2022",
+            "description": "Pierszy projekt intralogistyczny"
+        },
+        "4": {
+            "id": "4",
+            "month": "Kwiecień",
+            "year": "2022",
+            "description": "Uruchomienie działu instalacji elektrycznych<br/>6 PLC, 2 Projektantów instalacji elektrycznej"
+        },
+        "5": {
+            "id": "5",
+            "month": "Lipiec",
+            "year": "2022",
+            "description": "Pierwszy projekt maszyneryjny"
+        },
+        "6": {
+            "id": "6",
+            "month": "Sierpień",
+            "year": "2022",
+            "description": "Pierwszy projekt automotive"
+        },
+        "7": {
+            "id": "7",
+            "month": "Styczeń",
+            "year": "2023",
+            "description": "Nowe biuro w Poznaniu<br/>1 pracownik administracyjny, 10 PLC, 3 pracowników działu elektrycznego"
+        },
+        "8": {
+            "id": "8",
+            "month": "Marzec",
+            "year": "2023",
+            "description": "Powiększenie zespołu: 1 administracyjny, 11 PLC,<br/>4 projektatntów elektrycznych, 3R&D"
+        },
+        "9": {
+            "id": "9",
+            "month": "Wrzesień",
+            "year": "2023",
+            "description": "Powstanie systemu monitoringu"
+        },
+        "10": {
+            "id": "10",
+            "month": "Wrzesień",
+            "year": "2023",
+            "description": "Pierwsza umowa partnerska"
+        },
+        "11": {
+            "id": "11",
+            "month": "Listopad",
+            "year": "2023",
+            "description": "PLC HMI development"
+        },
+        "12": {
+            "id": "12",
+            "month": "Grudzień",
+            "year": "2023",
+            "description": "Digital Twin Virtual commissioning"
+        }
+    }
 }

@@ -31,6 +31,9 @@
             "description": "Maintaining the efficiency of the system and its operation is of the utmost importance. Let us take care of you. Our company provides 24/7 remote technical support and maintenance services. "
         }
     },
+    "carusel": {
+        "title": "Trusted by"
+    },
     "offer": {
         "engineering": {
             "title": "Pre-engineering",
@@ -167,7 +170,7 @@
             "description": "1st intra-logistics project"
         },
         "4": {
-            "id": "3",
+            "id": "4",
             "month": "April",
             "year": "2022",
             "description": "Started Electrical Engineering Department<br/>6 PLC, 2 Electric Engineering"
@@ -182,7 +185,7 @@
             "id": "6",
             "month": "September",
             "year": "2022",
-            "description": "1st machinery project"
+            "description": "1st automotive project"
         },
         "7": {
             "id": "7",

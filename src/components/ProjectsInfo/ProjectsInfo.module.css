@@ -24,14 +24,16 @@
 }
 
 .link {
-
+    color: var(--second-font-color);
+    border: none;
+    background-color: transparent;
     font-size: 39px;
     font-weight: 700;
     line-height: 59px;
     letter-spacing: 0em;
     margin-bottom: 32px;
     text-align: left;
-
+    cursor: pointer;
 }
 
 
@@ -61,4 +63,8 @@
     line-height: 150%;
     letter-spacing: 0em;
     text-align: left;
+}
+
+.active {
+    background-color: var(--accent-color);
 }

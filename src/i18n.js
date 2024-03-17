@@ -1,7 +1,7 @@
 
 import i18n from 'i18next';
-import translationEN from '../public/locales/en/translation.json';
-import translationPL from '../public/locales/pl/translation.json';
+import translationEN from '/src/locales/en/translation.json';
+import translationPL from '/src/locales/pl/translation.json';
 
 const resources = {
     en: {

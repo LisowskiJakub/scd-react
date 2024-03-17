@@ -1,0 +1,50 @@
+.carusel {
+    margin: 40px auto 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+
+}
+
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    width: 1080px;
+    margin: auto;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.slider {
+    margin: auto;
+    display: flex;
+    animation: 50s slide linear infinite;
+    width: fit-content;
+}
+
+.part {
+    display: flex;
+}
+
+.logo {
+    height: 60px;
+    padding: 0px 30px;
+    filter: grayscale(100%) opacity(0.5)
+}
+
+@keyframes slide {
+
+
+    to {
+        transform: translateX(-50%)
+    }
+}
