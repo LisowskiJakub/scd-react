@@ -21,7 +21,7 @@ function App() {
       <ThemeProvider theme={theme}>
 
         <Header />
-        <Routes>
+        <Routes basename={"/scd-react/"}>
           <Route index element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="Projects" element={<Projects />} />
