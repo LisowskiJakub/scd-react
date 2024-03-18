@@ -1,8 +1,10 @@
 import css from './TimeLine.module.css'
 import { useEffect, useState } from "react"
 import { Trans } from 'react-i18next'
+import jsonData from '../../locales/en/translation.json'
 
 
+const events = jsonData.events
 
 const TimeLineElement = ({ langKey }) => (
     <div className={css.card}>
@@ -17,22 +19,6 @@ const TimeLineElement = ({ langKey }) => (
 
 
 export const TimeLine = () => {
-    let x = 2021
-    const [events, setEvents] = useState([])
-    const fetchJson = () => {
-        fetch('src/locales/en/translation.json')
-            .then(response => {
-                return response.json();
-            }).then(data => {
-                setEvents(Object.values(data.events));
-            }).catch((e) => {
-                console.log(e.message);
-            });
-    }
-    useEffect(() => {
-        fetchJson()
-    }, [])
-
 
     const transformEventsToData = (events) => {
         const data = {};

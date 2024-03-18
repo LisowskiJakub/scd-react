@@ -1,0 +1,33 @@
+.siper-slide img {
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 1250ms ease-in-out;
+}
+
+
+
+.swiper-wrapper div {
+    display: flex;
+    justify-content: center;
+
+}
+
+.swiper-slide-prev img {
+    opacity: 0.5
+}
+
+.swiper-slide-next img {
+    opacity: 0.5
+}
+
+.swiper-slide-active img {
+    z-index: 2;
+}
+
+.swiper-button-prev div,
+.swiper-button-next div {
+    width: 100px;
+
+    z-index: 3;
+}

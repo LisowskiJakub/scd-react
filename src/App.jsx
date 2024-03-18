@@ -21,14 +21,14 @@ function App() {
       <ThemeProvider theme={theme}>
 
         <Header />
-        <Routes basename={"/scd-react/"}>
+        <Routes>
           <Route index element={<Home />} />
           <Route path="/" element={<Home />} />
-          <Route path="Projects" element={<Projects />} />
-          <Route path="Services" element={<Services />} />
-          <Route path="AboutUs" element={<AboutUs />} />
-          <Route path="Career" element={<Career />} />
-          <Route path="Contact" element={<Contact />} />
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/Services" element={<Services />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Career" element={<Career />} />
+          <Route path="/Contact" element={<Contact />} />
           <Route path="*" element={<Home />} />
         </Routes>
 

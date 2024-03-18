@@ -7,8 +7,6 @@ import { WorldMap } from "../WorldMap/WorldMap"
 import { Gallery } from "../Gallery/Gallery"
 
 
-
-
 export const Projects = () => (
 
     <>

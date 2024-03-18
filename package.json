@@ -30,6 +30,7 @@
     "require-context": "^1.1.0",
     "styled-component": "^2.8.0",
     "styled-components": "^6.1.8",
+    "swiper": "^11.0.7",
     "webpack": "^5.90.3"
   },
   "devDependencies": {
