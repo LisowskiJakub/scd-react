@@ -1,0 +1,52 @@
+.stat {
+    padding: 140px 0px 10px;
+    min-width: 1080px;
+}
+
+.title {
+    margin-bottom: 24px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.wrapper {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.scope,
+.kpi {
+    padding-bottom: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.description {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.numbers {
+    width: 350px;
+    min-height: 120px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px 0px #00000014;
+
+}

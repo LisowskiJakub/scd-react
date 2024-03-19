@@ -97,10 +97,115 @@
             "description": "Our design process is based on an in-depth analysis of the customer's requirements and specifications, which allows us to precisely identify needs and deliver machines that are optimized for efficiency, performance and durability.<br/> Whether you need a machine for forming, packaging or material processing, our flexibility and professionalism ensure that we deliver a solution that perfectly meets your needs. "
         }
     },
-    "projectStats": {
+    "projecstStats": {
+        "title": "Sorting system",
+        "scope": "Scope of work",
+        "kpi": "KPI",
         "intralogistics": {
-            "title": "Sorting system",
-            "subtitle": "Scope of work"
+            "intralogistics": {
+                "title": "Sorting system",
+                "scopeDescription": "Project management<br/>Electric engineering<br/>Electric installation<br/>PLC preparation and commissioning<br/>Remote Support",
+                "kpiDescryption": "Throughput: 4500 - 7200 items / h<br/>Max speed: 2,1 m/s<br/>Reading rate: 98,7%<br/>System availability: 98,3%",
+                "stats": {
+                    "1": {
+                        "number": "11",
+                        "description": "Sorters"
+                    },
+                    "2": {
+                        "number": "11",
+                        "description": "Numbers of PLCs"
+                    },
+                    "3": {
+                        "number": "27",
+                        "description": "Vision systems"
+                    }
+                }
+            },
+            "conveying": {
+                "title": "Conveing system",
+                "scopeDescription": "Project management<br/>Electric engineering<br/>Electric installation<br/>PLC preparation and commissioning<br/>Remote Support",
+                "kpiDescryption": "Throughput: 4500 - 7200 items / h<br/>Max speed: 2,1 m/s<br/>Reading rate: 98,7%<br/>System availability: 98,3%",
+                "stats": {
+                    "1": {
+                        "number": ">3km",
+                        "description": "Length"
+                    },
+                    "2": {
+                        "number": "4",
+                        "description": "Numbers of PLCs"
+                    },
+                    "3": {
+                        "number": "3",
+                        "description": "Carton closers"
+                    },
+                    "4": {
+                        "number": "2",
+                        "description": "Weights machines"
+                    },
+                    "5": {
+                        "number": "2",
+                        "description": "Labeling nachines"
+                    },
+                    "6": {
+                        "number": "21",
+                        "description": "Barcode readers"
+                    },
+                    "7": {
+                        "number": "8",
+                        "description": "Strapping machines"
+                    }
+                }
+            }
+        },
+        "automotive": {
+            "automotive": {
+                "title": "Automotive",
+                "scopeDescription": "Project management<br/>Electric engineering<br/>Electric installation<br/>Virtual commissioning<br/>PLC preparation and commissioning<br/>Production Support",
+                "kpiDescryption": "Cycle time: 180 s<br/>System availability: 99,2%",
+                "stats": {
+                    "1": {
+                        "number": "18",
+                        "description": "Robots"
+                    },
+                    "2": {
+                        "number": "4",
+                        "description": "Numbers of PLCs"
+                    },
+                    "3": {
+                        "number": "2",
+                        "description": "QR code readers"
+                    },
+                    "4": {
+                        "number": "23",
+                        "description": "Variants"
+                    }
+                }
+            }
+        },
+        "industryMachines": {
+            "industryMachines": {
+                "title": "Industry machines",
+                "scopeDescription": "PLC preparation and commissioning<br/>Production Support",
+                "kpiDescryption": "Cycle time: 56 s<br/>System availability: 98,9%",
+                "stats": {
+                    "1": {
+                        "number": "18",
+                        "description": "Robots"
+                    },
+                    "2": {
+                        "number": "4",
+                        "description": "Numbers of PLCs"
+                    },
+                    "3": {
+                        "number": "2",
+                        "description": "QR code readers"
+                    },
+                    "4": {
+                        "number": "23",
+                        "description": "Variants"
+                    }
+                }
+            }
         }
     },
     "heroMenu": {
