@@ -57,7 +57,15 @@
 
 }
 
+a.side-menu__link {
+    color: var(--accent-color);
+    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 
+    &:hover {
+        color: $second-font-color;
+        background-color: $accent-color;
+    }
+}
 
 .accent {
     display: flex;

@@ -23,6 +23,12 @@ ul {
 }
 
 a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:link:hover {
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -102,6 +108,15 @@ a.project__link.active {
 .side-menu__link:hover {
   cursor: pointer;
   color: #0C5ADB;
+}
+
+a.side-menu__link {
+  color: var(--accent-color);
+  transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+}
+a.side-menu__link:hover {
+  color: #EEE;
+  background-color: #0C5ADB;
 }
 
 .accent {
@@ -274,6 +289,7 @@ a.project__link.active {
 }
 
 .footer {
+  max-width: 1080px;
   color: #EEE;
   background: linear-gradient(0deg, #2A3941, #2A3941), linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.06617) 100%);
   padding: 65px 0px 24px;

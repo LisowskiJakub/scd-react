@@ -80,6 +80,10 @@
     box-shadow: 0px 20px 20px 0px #00000014;
 }
 
+.activePlace {
+    background-color: red;
+}
+
 .country {
     width: 104px;
 }

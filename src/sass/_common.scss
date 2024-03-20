@@ -25,6 +25,12 @@ ul {
 }
 
 a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:link:hover {
+    color: var(--accent-color);
     text-decoration: none;
 }
 

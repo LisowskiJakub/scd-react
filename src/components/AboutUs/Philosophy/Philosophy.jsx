@@ -1,6 +1,6 @@
 import { Trans } from 'react-i18next'
 import css from "./Philosophy.module.css"
-import picture from "/hand.png"
+import picture from "/src/assets/img/hand.png"
 
 
 const PhilosophyItem = ({ transKey }) => (

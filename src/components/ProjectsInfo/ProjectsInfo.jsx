@@ -6,8 +6,8 @@ import { Intralogistics } from './Intralogistics/Intralogistics';
 import { Automotive } from './Automotive/Automotive';
 import { IndustryMachines } from './IndustryMachines/IndustryMachines';
 import { Stats } from './Stats/Stats';
-import jsonData from '../../locales/en/translation.json'
-const { projectsInfo } = jsonData
+
+
 
 export const ProjectsInfo = () => {
     const [page, setPage] = useState(Intralogistics)
@@ -47,7 +47,7 @@ export const ProjectsInfo = () => {
             </section >
             <section className={css.statSection}>
                 <div className={css.statWrapper}>
-                    <Stats stats={""} langKey={"projecstStats." + activePage + "." + activePage} />
+                    <Stats langKey={activePage} />
 
                 </div>
             </section>

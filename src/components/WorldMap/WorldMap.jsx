@@ -6,12 +6,28 @@ import usa from '/maps/usa.png'
 import europe from '/maps/europe.png'
 import places from './data.json'
 
-const PlaceItem = ({ position, country, city }) => (
+
+
+const scrollIntoViewWithOffset = (selector, offset) => {
+    window.scrollTo({
+        behavior: 'smooth',
+        top:
+            document.querySelector(selector).getBoundingClientRect().top -
+            document.body.getBoundingClientRect().top -
+            offset,
+    })
+}
+
+
+const PlaceItem = ({ position, country, city, id }) => (
     <div className={css.wrapper} style={{
         top: `${position.y}px`, left: `${position.x}px`
     }}>
-        <div className={css.dot} >
-        </div>
+        <div className={css.dot} onClick={() => {
+            console.log(id)
+            // setActivePlace(id)
+            scrollIntoViewWithOffset(`#${id}`, 150)
+        }}></div>
         <div className={css.description}>
             {country}, {city}
         </div>
@@ -19,13 +35,11 @@ const PlaceItem = ({ position, country, city }) => (
 )
 
 export const WorldMap = ({ simple = true }) => {
-
+    const [activePlace, setActivePlace] = useState("id-10")
     const [map, setMap] = useState(world);
     console.log(places)
 
-    const handleClick = (e) => (
-        console.log(e)
-    )
+
 
 
     return (
@@ -53,14 +67,14 @@ export const WorldMap = ({ simple = true }) => {
                     {map == world ?
                         <>
                             {places.map(({ positionW, id, country, city }) => (
-                                <PlaceItem position={positionW} key={id} country={country} city={city} />
+                                <PlaceItem id={id} position={positionW} key={id} country={country} city={city} />
                             ))}
                         </>
                         : <>
                             {places.filter(el => (map == usa) ? (el.country == "US") : (el.country !== "US")
                             )
                                 .map(({ position, id, country, city }) => (
-                                    <PlaceItem position={position} key={id} country={country} city={city} />
+                                    <PlaceItem id={id} position={position} key={id} country={country} city={city} />
                                 ))}
                         </>
                     }
@@ -70,7 +84,8 @@ export const WorldMap = ({ simple = true }) => {
                 </div>
                 <ul className={css.list}>
                     {places.map(({ country, city, id, business, stuff, date }) => (
-                        <li key={id} className={css.item} onClick={handleClick}>
+                        <li id={id} key={id} className={`${css.item} ${activePlace == { id } && css.activePlace}`} >
+                            {console.log(typeof (id))}
                             <div className={css.country}>{country}</div>
                             < div className={css.city}>{city}</div>
                             < div className={css.business}>{business}</div>
