@@ -1,13 +1,6 @@
 import { Trans } from "react-i18next"
-import picture from "/projects/automotive.png"
+import picture from "/src/assets/img/automotive.png"
 import css from "./Automotive.module.css";
-import { Stats } from "../Stats/Stats";
-import jsonData from "../../../locales/en/translation.json"
-
-
-
-
-
 
 export const Automotive = () => (
     <>

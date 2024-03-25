@@ -2,7 +2,7 @@
 import { NavLink, Link } from 'react-router-dom';
 import css from './Header.module.css'
 import { Nav } from '../Nav/Nav'
-import Logo from '/Logo1.svg'
+import Logo from '/src/assets/svg/Logo1.svg'
 import { Trans, useTranslation } from 'react-i18next'
 
 

@@ -1,7 +1,11 @@
-import Facebook from '/svg/socials.svg'
 import { Trans } from 'react-i18next'
-import Logo from '/LogoFooter.svg'
+import Logo from '/src/assets/svg/LogoFooter.svg'
 import css from './Footer.module.css'
+import fbIcon from '/src/assets/svg/facebook.svg'
+import inIcon from '/src/assets/svg/linkedin1.svg'
+
+
+
 const handleClick = (e) => {
     window.scroll({
         top: 0,
@@ -32,25 +36,25 @@ export const Footer = () => (
                 </div>
                 <div className={css.rightSide}>
                     <h5 className={css.title}><Trans i18nKey="footer.contact">Contact</Trans></h5>
-                    <p className={css.details}>Klinkierowa 7,<br />
+                    <p className={css.details}>Klinkierowa 7<br />
                         60-101 Poznań, Poland<br />
                         NIP: 782 29 05 191<br />
                         DUNS: 674393268</p>
-                    <p className={css.email}>office@scd-automation.com</p>
-                    <p className={css.phone}>+48 668 875 710</p>
+                    <a href="mailto:office@scd-automation.com" className={css.email}>office@scd-automation.com</a>
+                    <a href="tel:+48668875710" className={css.phone}>+48 668 875 710</a>
                     <ul className={css.links}>
                         <li className={css.item}>
-                            <a href="" className={css.link}>
-                                <svg className={css.svg}>
-                                    <use href="/svg/socials.svg#instagram"></use>
-                                </svg>
+                            <a href="www.linkedin.com/company/scd-automation" className={css.link}>
+
+                                <img src={inIcon}></img>
+
                             </a>
                         </li>
                         <li className={css.item}>
-                            <a href="" className={css.link}>
-                                <svg className={css.svg}>
-                                    <use href={Facebook}></use>
-                                </svg>
+                            <a href="https://www.facebook.com/profile.php?id=100083203395064" className={css.link}>
+
+                                <img src={fbIcon}></img>
+
                             </a>
                         </li>
                     </ul>

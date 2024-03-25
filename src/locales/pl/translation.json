@@ -12,7 +12,7 @@
         "description": "Koncentrujemy się na potrzebach klientów i wspieramy ich w usprawnianiu procesów poprzez wdrażanie najlepszych rozwiązań, dostosowanych specjalnie do ich wymagań."
     },
     "footer": {
-        "description": "tutaj już nie będę wymyślał ogarnijcie tekst bo brakuje tłumaczenia",
+        "description": "Automatyzujemy świat, wspierając innowacje i przyczyniając się do rozwoju technologicznego dzięki wydajnym, nowoczesnym rozwiązaniom przemysłowym. ",
         "contact": "Kontakt",
         "rights": "© 2024 SCD Automation sp. z o.o. Wszelkie prawa zastrzeżone."
     },
@@ -35,7 +35,7 @@
         "title": "Zaufali nam"
     },
     "offer": {
-        "Engineering": {
+        "engineering": {
             "title": "Faza koncepcji",
             "description": "Wybór odpowiedniej technologii spełniającej wymagania projektu jest niezwykle ważny. Dzięki naszym koncepcjom sterowania zapewnisz bezpieczny początek swojego projektu."
         },
@@ -58,7 +58,7 @@
     },
     "robot": {
         "title": "",
-        "description": "Innowacje w automatyce i cyfryzacja Przemysłu 4.0 otwierają nowe możliwości. Jesteśmy Twoim partnerem w zakresie integracji systemów sterowania, który pomoże Ci wykorzystać te możliwości i sprawi, że Twój proces produkcyjny będzie szybszy i bardziej wydajny. Naszym celem jest przekroczenie Twoich oczekiwań. Oferujemy niestandardowe rozwiązania, które spełniają określone potrzeby i wyzwania. Niezależnie od tego, czy potrzebujesz zmodernizować istniejący sprzęt, zainstalować nowe systemy, czy zintegrować różne technologie, jesteśmy tutaj, aby wspierać Cię na każdym kroku."
+        "description": "Innowacje w automatyce i cyfryzacja Przemysłu 4.0 otwierają nowe możliwości. Jesteśmy Twoim partnerem w zakresie integracji systemów sterowania, który pomoże Ci wykorzystać te możliwości i sprawi, że Twój proces produkcyjny będzie szybszy i bardziej wydajny.<br/><br/>Niezależnie od tego, czy potrzebujesz zmodernizować istniejący sprzęt, zainstalować nowe systemy, czy zintegrować różne technologie, jesteśmy tutaj, aby wspierać Cię na każdym kroku."
     },
     "section": {
         "projects": {
@@ -67,7 +67,7 @@
         },
         "aboutUs": {
             "title": "O nas",
-            "description": " “Brakuje cytatu po polsku więc go przetłumaczcie w takiej formie jakiej chcecie” <br/>John F. Kennedy"
+            "description": " “Automatyzacja nie musi być naszym wrogiem. Uważam, że maszyny mogą ułatwić życie ludziom, jeśli Ci nie pozwolą maszynom ich zdominować.” <br/>John F. Kennedy"
         },
         "ourServices": {
             "title": "Usługi",
@@ -103,6 +103,11 @@
             "subtitle": "PL"
         }
     },
+    "worldmap": {
+        "world": "Świat",
+        "europe": "Europa",
+        "usa": "USA"
+    },
     "heroMenu": {
         "aboutUs": {
             "title": "",
@@ -124,15 +129,15 @@
     "philosophy": {
         "vision": {
             "title": "Our VisionPL",
-            "description": "PLWe automate the world. We believe that automation improves work efficiency and the quality of our lives"
+            "description": "Automatyzujemy świat. Wierzymy, że automatyzacja poprawia efektywność pracy i jakość naszego życia."
         },
         "mission": {
             "title": "Our MissionPL",
-            "description": "PLWe focus on customers’ needs and support them in improving their processes by implementing the best solutions, tailored specifically to their requirements."
+            "description": "Skupialmy się na potrzebach klientów i wspieramy ich w doskonaleniu procesów poprzez wdrażanie najlepszych rozwiązań, dostosowanych specjalnie do ich wymagań."
         },
         "values": {
             "title": "Our valuesPL",
-            "description": "PLWe are an open minded, experienced and ambitious team. The pillars of our work are respect, competence, listening and reciprocal support."
+            "description": "Jesteśmy otwartym, doświadczonym i ambitnym zespołem. Filarami naszej pracy są szacunek, kompetencja, słuchanie i wzajemne wsparcie."
         }
     },
     "services": {
@@ -150,6 +155,9 @@
         }
     },
     "findUs": "Znajdź nas",
+    "timeline": {
+        "title": "Nasza historia"
+    },
     "events": {
         "1": {
             "id": "1",
@@ -161,7 +169,7 @@
             "id": "2",
             "month": "Styczeń",
             "year": "2022",
-            "description": "Pierwsze biuro w Poznaniu<br/>Uruchomienie działu PLC - 4 PLC"
+            "description": "Otwarcie biura w Poznaniu<br/>Uruchomienie działu PLC - 4 PLC"
         },
         "3": {
             "id": "3",
@@ -173,13 +181,13 @@
             "id": "4",
             "month": "Kwiecień",
             "year": "2022",
-            "description": "Uruchomienie działu instalacji elektrycznych<br/>6 PLC, 2 Projektantów instalacji elektrycznej"
+            "description": "Uruchomienie działu instalacji elektrycznych<br/>6 PLC, 2 Projektantów instalacji"
         },
         "5": {
             "id": "5",
             "month": "Lipiec",
             "year": "2022",
-            "description": "Pierwszy projekt maszyneryjny"
+            "description": "Pierwszy projekt maszyny przemysłowej"
         },
         "6": {
             "id": "6",
@@ -191,7 +199,7 @@
             "id": "7",
             "month": "Styczeń",
             "year": "2023",
-            "description": "Nowe biuro w Poznaniu<br/>1 pracownik administracyjny, 10 PLC, 3 pracowników działu elektrycznego"
+            "description": "Nowe biuro w Poznaniu<br/>1 pracownik administracyjny, 10 PLC,<br/>3 pracowników działu elektrycznego"
         },
         "8": {
             "id": "8",
@@ -203,7 +211,7 @@
             "id": "9",
             "month": "Wrzesień",
             "year": "2023",
-            "description": "Powstanie systemu monitoringu"
+            "description": "Rozpoczęcie prac nad systemem wizyjnym"
         },
         "10": {
             "id": "10",
@@ -215,7 +223,7 @@
             "id": "11",
             "month": "Listopad",
             "year": "2023",
-            "description": "PLC HMI development"
+            "description": "Rozpoczęcie prac nad stworzeniem standardu"
         },
         "12": {
             "id": "12",

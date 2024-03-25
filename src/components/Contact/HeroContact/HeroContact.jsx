@@ -1,4 +1,3 @@
-import { Trans } from 'react-i18next'
 import css from "./HeroContact.module.css"
 import mail from '/src/assets/svg/mail.svg'
 import location from '/src/assets/svg/location.svg'
@@ -18,7 +17,7 @@ export const HeroContact = ({ picture }) => (
                 <ul className={css.list}>
                     <li className={css.item}>
                         <img className={css.icon} src={location} alt="" />
-                        <p>Klinkierowa 7,<br />
+                        <p>Klinkierowa 7<br />
                             60-101 Poznań<br />
                             Poland</p>
                     </li>
@@ -33,7 +32,7 @@ export const HeroContact = ({ picture }) => (
                         <img className={css.icon} src={mail} />
                         <div className={css.duns}>
                             <a className={css.link} href="mailto:office@scd-automation.com">office@scd-automation.com</a>
-                            <p>NIP:782-190-51-91</p>
+                            <p>NIP: 782-190-51-91</p>
                             <p>DUNS: 674393268</p>
                         </div>
                     </li>

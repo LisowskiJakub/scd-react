@@ -2,7 +2,7 @@
 import { HeroContact } from "./HeroContact/HeroContact"
 import { Trans } from "react-i18next"
 import css from "./Contact.module.css"
-import picture from "/building.png"
+import picture from "/src/assets/img/building.png"
 import MyMap from "../GoogleMap/GoogleMap"
 
 

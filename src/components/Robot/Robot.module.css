@@ -3,6 +3,7 @@
     justify-content: center;
     padding: 90px 0px;
     margin: auto;
+    height: 600px;
 }
 
 .wrapper {
@@ -24,19 +25,56 @@
 }
 
 .description {
-    width: 650px;
+    width: 600px;
     padding: 0px;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%;
+    line-height: 180%;
     text-align: left;
 }
 
 .bg {
 
     width: 50%;
-    background: url('/public/Robot.png');
+    background: url('/src/assets/img/Robot.png');
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: left bottom;
+}
+
+
+@media screen and (max-width: 1080px) {
+
+    .robot {
+        flex-direction: column;
+        padding: 90px 20px;
+        height: fit-content;
+    }
+
+    .content {
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    .description {
+        height: auto;
+        width: auto;
+    }
+
+    .wrapper {
+        width: 100vw;
+        border: solid 1px var(--accent-color);
+        border-radius: 20px;
+        padding: 20px;
+
+    }
+
+    .bg {
+
+        width: 100vw;
+        position: relative;
+        z-index: 2;
+    }
 }

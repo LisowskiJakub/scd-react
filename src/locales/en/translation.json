@@ -12,7 +12,7 @@
         "description": "We focus on customers’ needs and support them in improving their processes by implementing the best solutions, tailored specifically to their requirements."
     },
     "footer": {
-        "description": "We are here to automate the world. We are dedicated to supporting innovation and contributing to technological development by offering efficient and modern solutions for industry. .",
+        "description": "We are here to automate the world. We are dedicated to supporting innovation and contributing to technological development by offering efficient and modern solutions for industry.",
         "contact": "Contact",
         "rights": "© 2024 SCD Automation sp. z o.o. All Rights Reserved."
     },
@@ -44,7 +44,7 @@
             "description": "As a standard, we provide the design of electrical diagrams, take responsibility for the terms of delivery of materials, and perform the required measurements."
         },
         "programming": {
-            "title": "PLCprogramming",
+            "title": "PLC programming",
             "description": "We work with any type of industrial PLC (Siemens, Beckhoff, Allen-Bradley) and integrate it with our HMI solution to monitor and manage the automation system. "
         },
         "installations": {
@@ -52,13 +52,13 @@
             "description": "We take full responsibility for your project. Our team supervises all phases of the project until the launch and full functionality of the system."
         },
         "support": {
-            "title": "After Sales support ",
+            "title": "After-sales support ",
             "description": "24/7 remote technical support and maintenance services are provided. Spare parts and change requests can be ordered during and after a project."
         }
     },
     "robot": {
         "title": "",
-        "description": "Innovations in the automation and industry 4.0 digitalization open new opportunities. We are your control system integration partner, that will help you leverage these opportunities and will make your production process faster and more efficient.<br/><br/> Our goal is to exceed your expectations. We offer custom solutions that meet your specific needs and challenges. Whether you need to upgrade existing equipment, install new systems, or integrate various technologies, we are here to support you every step of the way. "
+        "description": "Innovations in the automation and industry 4.0 digitalization open new opportunities. We are your control system integration partner, that will help you leverage these opportunities and will make your production process faster and more efficient.<br/><br/>Whether you need to upgrade existing equipment, install new systems, or integrate various technologies, we are here to support you every step of the way. "
     },
     "section": {
         "projects": {
@@ -207,6 +207,11 @@
             }
         }
     },
+    "worldmap": {
+        "world": "World",
+        "europe": "Europe",
+        "usa": "United States"
+    },
     "heroMenu": {
         "aboutUs": {
             "title": "",
@@ -254,6 +259,9 @@
         }
     },
     "findUs": "Find us",
+    "timeline": {
+        "title": "Our story"
+    },
     "events": {
         "1": {
             "id": "1",

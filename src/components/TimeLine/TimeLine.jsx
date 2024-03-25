@@ -1,5 +1,4 @@
 import css from './TimeLine.module.css'
-import { useEffect, useState } from "react"
 import { Trans } from 'react-i18next'
 import jsonData from '../../locales/en/translation.json'
 
@@ -40,13 +39,11 @@ export const TimeLine = () => {
     const data = transformEventsToData(events);
 
 
-    console.log(data)
-
 
     return (
         <section className={css.timeLine}>
             <h2 className={css.title}>
-                <Trans i18nKey='timeLine.title'></Trans>
+                <Trans i18nKey='timeline.title'></Trans>
             </h2>
             <div className={css.time} >
 

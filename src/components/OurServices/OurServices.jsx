@@ -1,8 +1,7 @@
 import { OurServicesItem } from "./OurServicesItem"
-import css from './OurServices.module.css'
-import cards from '../OurServices/OurServicesItems'
 import { Trans } from "react-i18next"
-import picture from '/packRobot.png'
+import css from './OurServices.module.css'
+import picture from '/src/assets/img/packRobot.png'
 
 
 
@@ -18,9 +17,9 @@ export const OurServices = () => (
                 <h2 className={css.title}><Trans i18nKey="ourServices.title">Our services</Trans></h2>
                 <ul className={css.list}>
 
-                    < OurServicesItem transKey={"ourServices.electrical"} />
-                    < OurServicesItem transKey={"ourServices.control"} />
-                    < OurServicesItem transKey={"ourServices.support"} />
+                    < OurServicesItem id={"electrical"} transKey={"ourServices.electrical"} />
+                    < OurServicesItem id={"control"} transKey={"ourServices.control"} />
+                    < OurServicesItem id={"support"} transKey={"ourServices.support"} />
 
 
 

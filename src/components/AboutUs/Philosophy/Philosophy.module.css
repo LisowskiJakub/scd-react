@@ -4,16 +4,15 @@
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    height: 1450px;
+    height: 1250px;
 }
 
 .wrapper {
     border: 1px solid var(--accent-color);
     border-radius: 20px;
     box-shadow: 0px 20px 20px 0px #00000014;
-
-    width: 980px;
-    height: 268px;
+    width: 936px;
+    height: 231px;
     padding: 27px 58px;
     margin: 28px 0px;
 }
@@ -23,9 +22,9 @@
 
 .title {
 
-    font-size: 49px;
+    font-size: 39px;
     font-weight: 700;
-    line-height: 74px;
+    line-height: 58px;
     letter-spacing: 0em;
     text-align: left;
     margin-bottom: 30px;
@@ -34,9 +33,9 @@
 
 .description {
 
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 38px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
     padding: 0px;
@@ -45,5 +44,5 @@
 .image {
     position: absolute;
     right: 0px;
-    bottom: 0px;
+    bottom: -4px;
 }

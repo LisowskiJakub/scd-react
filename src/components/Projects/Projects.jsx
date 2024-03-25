@@ -1,10 +1,10 @@
 
 import { Trans } from "react-i18next"
-import css from "./Projects.module.css"
 import { ProjectsInfo } from "../ProjectsInfo/ProjectsInfo"
 import { Outlet } from "react-router-dom"
 import { WorldMap } from "../WorldMap/WorldMap"
 import { Gallery } from "../Gallery/Gallery"
+import css from "./Projects.module.css"
 
 
 export const Projects = () => (
@@ -12,7 +12,7 @@ export const Projects = () => (
     <>
 
 
-        <section className={css.section}>
+        <section id="projects" className={css.section}>
             <h2 className={css.title}>
                 <Trans i18nKey={"section.projects.title"}></Trans>
             </h2>

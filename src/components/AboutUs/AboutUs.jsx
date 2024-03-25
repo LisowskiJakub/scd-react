@@ -3,13 +3,9 @@
 import { HeroAboutUs } from "./HeroAboutUs/HeroAboutUs"
 import { Trans } from "react-i18next"
 import css from "./AboutUs.module.css"
-import picture from "/team.png"
+import picture from "/src/assets/img/team.png"
 import { TimeLine } from "../TimeLine/TimeLine"
 import { Philosophy } from "./Philosophy/Philosophy"
-
-
-
-
 
 export const AboutUs = () => (
 

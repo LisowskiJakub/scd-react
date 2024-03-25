@@ -48,3 +48,17 @@
         transform: translateX(-50%)
     }
 }
+
+@media screen and (max-width: 1080px) {
+    .title {
+
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 34.5px;
+        text-align: left;
+    }
+
+    .logo {
+        height: 54px;
+    }
+}

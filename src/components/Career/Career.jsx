@@ -2,7 +2,7 @@
 import { HeroCareer } from "./HeroCareer/HeroCareer"
 import { Trans } from "react-i18next"
 import css from "./Career.module.css"
-import picture from "/office.png"
+import picture from "/src/assets/img/office.png"
 import linkedin from "/src/assets/svg/test.svg"
 
 
@@ -25,7 +25,7 @@ export const Career = () => (
             </Trans>
             <div className={css.wrapper}>
                 <img className={css.icon} src={linkedin} ></img>
-                <a className={css.link} href="https:\\www.linkedin.com/company/scd-automation/about/">www.linkedin.com/company/scd-automation/about/</a>
+                <a className={css.link} href="https:\\www.linkedin.com/company/scd-automation/about/">www.linkedin.com/company/scd-automation/</a>
             </div>
         </section>
     </>

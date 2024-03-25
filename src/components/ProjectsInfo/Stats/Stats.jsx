@@ -39,14 +39,12 @@ function filterObjectByKey(obj, keyToFilter) {
 export const Stats = ({ langKey }) => {
     const projects = transformData(Data.projectsStats)
     const project = (Object.values(filterObjectByKey(projects, langKey)))
-    console.log(project)
     const arr = project[0]
     return (
         <div className={css.stat}>
             <>
                 {arr.map((el) => (
                     <>
-                        {console.log(el.id)}
                         <h2 className={css.title}><Trans i18nKey={`projectsStats.${langKey}.${el.id}.title`}></Trans></ h2>
                         <div className={css.wrapper}>
                             <div className={css.scope}>

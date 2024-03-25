@@ -3,7 +3,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
     margin: auto;
     height: 440px;
     color: var(--second-font-color);
@@ -68,4 +67,28 @@
 p {
     padding: 0 16px;
     text-align: center;
+}
+
+
+@media screen and (max-width: 1080px) {
+    .ourServices {
+        height: auto;
+    }
+
+    .picture {
+        display: none;
+    }
+
+    .title {
+        margin: 32px auto 16px;
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 43.5px;
+        text-align: center;
+
+    }
+
+    .list {
+        flex-direction: column;
+    }
 }

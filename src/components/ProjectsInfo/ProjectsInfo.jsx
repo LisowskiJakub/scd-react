@@ -1,11 +1,11 @@
-import { Outlet, NavLink } from 'react-router-dom';
+
 import { Trans, } from 'react-i18next';
-import css from './ProjectsInfo.module.css'
 import { useState } from 'react';
 import { Intralogistics } from './Intralogistics/Intralogistics';
 import { Automotive } from './Automotive/Automotive';
 import { IndustryMachines } from './IndustryMachines/IndustryMachines';
 import { Stats } from './Stats/Stats';
+import css from './ProjectsInfo.module.css'
 
 
 

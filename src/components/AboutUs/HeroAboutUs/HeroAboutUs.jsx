@@ -1,7 +1,5 @@
 import { Trans } from 'react-i18next'
 import css from "./HeroAboutUs.module.css"
-import { theme } from '../../../Theme'
-
 
 
 export const HeroAboutUs = ({ transKey, picture }) => (
