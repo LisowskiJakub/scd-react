@@ -1,4 +1,3 @@
-
 import { HeroCareer } from "./HeroCareer/HeroCareer"
 import { Trans } from "react-i18next"
 import css from "./Career.module.css"

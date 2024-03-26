@@ -115,3 +115,104 @@ h4>.dot {
         height: 100%;
     }
 }
+
+
+@media screen and (max-width: 1080px) {
+    .timeLine {
+        padding: 32px 20px;
+    }
+
+    .title {
+        width: 100%;
+        margin-bottom: 35px;
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 43.5px;
+        text-align: left;
+
+    }
+
+    .time {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        min-height: 150px;
+    }
+
+    .line {
+        position: absolute;
+        height: 95.5%;
+        top: 25px;
+        width: 3px;
+        bottom: 60px;
+        background-color: var(--accent-color);
+    }
+
+    .wrapper {
+        align-items: flex-start;
+    }
+
+    .dot {
+        transform: translateX(0px);
+
+    }
+
+    .card {
+        width: 65vw;
+
+
+    }
+
+    .year {
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 43.5px;
+        text-align: left;
+
+    }
+
+    .month {
+
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: left;
+
+    }
+
+    .description {
+
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+
+    }
+
+
+    .element:nth-child(even) {
+        transform: translateX(0%) translateX(30px);
+    }
+
+    .element:nth-child(even)>.dot {
+        transform: translateX(-50%);
+        left: -28px;
+    }
+
+    .element:nth-child(odd)>.dot {
+        transform: translateX(-50%);
+        left: -28px;
+    }
+
+
+    .element:nth-child(odd) {
+        transform: translateX(0%) translateX(30px);
+        text-align: left;
+        flex-direction: row;
+
+    }
+
+    .line {
+        height: 95%;
+    }
+}

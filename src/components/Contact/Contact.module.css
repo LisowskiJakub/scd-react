@@ -49,18 +49,17 @@
     .section {
         height: auto;
         padding: 20px;
+        width: 100vw;
     }
 
     .subtitle {
         display: none;
     }
 
-    .section {
-        width: 100vw;
-    }
 
     .description {
         width: 90%;
+        text-align: center;
     }
 
     .findUs {

@@ -49,3 +49,48 @@
     background-size: cover;
     background-position: left top;
 }
+
+@media screen and (max-width: 1080px) {
+    .title {
+        height: max-content;
+        padding: 20px;
+        width: 100vw;
+    }
+
+    .description {
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        width: 90vw;
+        text-align: left;
+
+    }
+
+    .wrapper {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+
+        width: 90vw;
+        height: auto;
+        text-align: left;
+        padding: 32px 0px;
+    }
+
+    .image {
+        position: static;
+        width: 100%;
+    }
+
+    .image>img {
+        position: static;
+        object-fit: scale-down;
+        width: 100vw;
+    }
+}

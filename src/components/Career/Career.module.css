@@ -68,3 +68,32 @@ section>div>a:hover {
 .link.link {
     color: var(--main-font-color);
 }
+
+
+@media screen and (max-width: 1080px) {
+    .section {
+        height: auto;
+        padding: 20px;
+        width: 100vw;
+    }
+
+    .description {
+        width: 90%;
+        text-align: center;
+    }
+
+    .linkedin {
+        height: auto;
+        margin: auto;
+        padding: 40px 20px 24px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
