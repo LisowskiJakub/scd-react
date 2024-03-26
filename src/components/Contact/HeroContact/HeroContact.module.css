@@ -29,7 +29,7 @@ a:link:hover {
 }
 
 .content {
-    width: fit-content;
+    width: 100vw;
     margin: auto;
 }
 
@@ -107,6 +107,8 @@ li>p {
     .content {
         padding: 32px;
     }
+
+
 
     .image {
         position: static;
