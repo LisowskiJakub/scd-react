@@ -1,0 +1,26 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 283px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+link {
+    cursor: pointer;
+}
+
+link:hover {
+    cursor: pointer;
+    color: var(--accent-color);
+}
+
+
+
+@media screen and (max-width: 1080px) {
+    .menu {
+        display: none;
+    }
+}

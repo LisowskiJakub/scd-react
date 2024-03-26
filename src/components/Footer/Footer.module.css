@@ -84,3 +84,46 @@
     margin-left: 12px;
     fill: red;
 }
+
+.copyRights__mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 1080px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .description {
+        display: none;
+    }
+
+
+    .rightSide {
+        width: 100vw;
+        align-items: center;
+        padding: 40px 20px 16px;
+    }
+
+    .title {
+        display: none;
+    }
+
+    p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+
+
+    }
+
+    .copyRights {
+        display: none;
+    }
+
+    .copyRights__mobile {
+        display: text;
+    }
+}

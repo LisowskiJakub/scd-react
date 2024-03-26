@@ -44,7 +44,7 @@ export const Footer = () => (
                     <a href="tel:+48668875710" className={css.phone}>+48 668 875 710</a>
                     <ul className={css.links}>
                         <li className={css.item}>
-                            <a href="www.linkedin.com/company/scd-automation" className={css.link}>
+                            <a href="https://www.linkedin.com/company/scd-automation" className={css.link}>
 
                                 <img src={inIcon}></img>
 
@@ -58,6 +58,11 @@ export const Footer = () => (
                             </a>
                         </li>
                     </ul>
+                    <p className={css.copyRights__mobile}>
+                        <Trans i18nKey="footer.rights">
+                            © 2024 SCD Automation sp. z o.o. All Rights Reserved.
+                        </Trans>
+                    </p>
                 </div>
 
             </div>

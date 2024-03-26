@@ -1,0 +1,89 @@
+.header {
+    position: sticky;
+    top: 0;
+    color: var(--main-font-color);
+    background-color: var(--main-background);
+    z-index: 4;
+}
+
+.menu {
+    margin: auto;
+    display: flex;
+    height: 112px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    max-width: 1080px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: var(--accent-colo)r
+}
+
+.sideMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 232px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: var(--accent-colo)r
+}
+
+
+
+a.sideMenu__link {
+    color: var(--accent-color);
+    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+}
+
+a.sideMenu__link:hover {
+    color: var(--second-font-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+
+.sideMenu__link__accent {
+    display: flex;
+    width: 140px;
+    height: 40px;
+    padding: 10px 38px;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+}
+
+.accent:hover {
+    color: var(--second-font-color);
+    background-color: var(--accent-color);
+}
+
+@media screen and (max-width: 1080px) {
+    .menu {
+        padding: 0px 20px;
+    }
+
+    a:link.sideMenu__link__accent {
+        display: none;
+    }
+}

@@ -15,16 +15,16 @@ export const Header = () => {
     }
 
     return (
-        <header className={'header'}>
-            <div className={`container header__menu`}>
-                <NavLink className="logo" to='/'>
+        <header className={css.header}>
+            <div className={css.menu}>
+                <NavLink className={css.logo} to='/'>
                     <img src={Logo}></img>
                 </NavLink>
                 <Nav />
-                <div className={'side-menu'}>
-                    <div onClick={() => changeLanguage("pl")} className={'side-menu__link'}>PL</div>
-                    <div onClick={() => changeLanguage("en")} className={'side-menu__link'}>EN</div>
-                    <Link className={'side-menu__link accent'} to='/Contact'><Trans i18nKey="nav.contact">Contact</Trans></Link>
+                <div className={css.sideMenu}>
+                    <div onClick={() => changeLanguage("pl")} className={css.sideMenu__link}>PL</div>
+                    <div onClick={() => changeLanguage("en")} className={css.sideMenu__link}>EN</div>
+                    <Link className={css.sideMenu__link__accent} to='/Contact'><Trans i18nKey="nav.contact">Contact</Trans></Link>
                 </div>
             </div>
         </header>

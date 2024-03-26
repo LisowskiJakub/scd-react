@@ -54,6 +54,10 @@
         background-size: cover;
     }
 
+    .content {
+        padding: 76px 20px 108px;
+    }
+
     .title {
 
         font-size: 33px;
