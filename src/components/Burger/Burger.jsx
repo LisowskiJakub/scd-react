@@ -13,7 +13,6 @@ export const Burger = () => {
         setIsActive(!isActive)
         console.log('click')
     }
-
     return (
         <>
             <button className={css.burgerButton} onClick={toggleActive}>
