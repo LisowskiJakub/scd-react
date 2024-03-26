@@ -30,6 +30,7 @@
     align-items: center;
     justify-content: center;
     height: 218px;
+    text-align: left;
 }
 
 .subtitle {
@@ -39,5 +40,31 @@
     letter-spacing: 0em;
     text-align: left;
     transform: translateX(270px);
+
+}
+
+
+@media screen and (max-width: 1080px) {
+
+    .section {
+        height: auto;
+        padding: 20px;
+    }
+
+    .subtitle {
+        display: none;
+    }
+
+    .section {
+        width: 100vw;
+    }
+
+    .description {
+        width: 100vw;
+    }
+
+    .findUs {
+        display: none;
+    }
 
 }

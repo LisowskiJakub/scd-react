@@ -4,7 +4,7 @@ import css from './Header.module.css'
 import { Nav } from '../Nav/Nav'
 import Logo from '/src/assets/svg/Logo1.svg'
 import { Trans, useTranslation } from 'react-i18next'
-
+import { Burger } from '../Burger/Burger';
 
 
 export const Header = () => {
@@ -24,6 +24,7 @@ export const Header = () => {
                 <div className={css.sideMenu}>
                     <div onClick={() => changeLanguage("pl")} className={css.sideMenu__link}>PL</div>
                     <div onClick={() => changeLanguage("en")} className={css.sideMenu__link}>EN</div>
+                    <Burger />
                     <Link className={css.sideMenu__link__accent} to='/Contact'><Trans i18nKey="nav.contact">Contact</Trans></Link>
                 </div>
             </div>

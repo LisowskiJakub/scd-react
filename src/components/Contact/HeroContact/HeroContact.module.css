@@ -86,3 +86,36 @@ li>div>a:link {
 
     text-decoration: underline;
 }
+
+li>p {
+    text-align: left;
+}
+
+.duns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 1080px) {
+    .wrapper {
+        height: auto;
+        flex-direction: column-reverse;
+        width: auto;
+    }
+
+    .content {
+        padding: 32px;
+    }
+
+    .image {
+        position: static;
+    }
+
+    .image>img {
+        width: 100%;
+        position: static;
+        object-fit: cover;
+
+    }
+}
