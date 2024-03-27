@@ -163,13 +163,6 @@ h4>.dot {
 
     }
 
-    .year {
-        font-size: 29px;
-        font-weight: 700;
-        line-height: 43.5px;
-        text-align: left;
-
-    }
 
     .month {
 
@@ -215,4 +208,12 @@ h4>.dot {
     .line {
         height: 95%;
     }
+}
+
+.year>p {
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 43.5px;
+    text-align: left;
+
 }

@@ -32,6 +32,10 @@
     }
 
     .title {
+        margin-bottom: 30px;
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 49.5px;
         text-align: center;
     }
 
