@@ -5,6 +5,8 @@ import { Robot } from '../Robot/Robot'
 import { LogoCarusel } from '../LogoCarousel/LogoCarousel'
 import { Offer } from '../Offer/Offer'
 
+
+
 export const Home = () => (
     <>
         <Hero transKey={"hero"} />

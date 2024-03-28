@@ -47,34 +47,50 @@
 
     .robot {
         flex-direction: column;
-        padding: 90px 20px;
+        align-items: center;
+        margin: 45px 0px;
+        padding: 0px 20px;
         height: fit-content;
     }
 
     .content {
-        padding: 20px;
-        font-size: 20px;
+        padding: 0px;
+        width: 100%;
+        font-size: 16px;
         font-weight: 700;
         line-height: 30px;
     }
 
     .description {
         height: auto;
-        width: auto;
+        width: 100%;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: left;
+
     }
 
+
     .wrapper {
-        width: 100vw;
+        justify-content: flex-start;
+        width: 100%;
         border: solid 1px var(--accent-color);
         border-radius: 20px;
         padding: 20px;
+        margin: 0px 20px;
 
     }
 
     .bg {
-
-        width: 100vw;
         position: relative;
+        width: 100vw;
+        height: 300px;
         z-index: 2;
+        bottom: 50px;
+        right: 0px;
+        background-size: cover;
+
+
     }
 }

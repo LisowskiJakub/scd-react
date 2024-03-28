@@ -1,0 +1,29 @@
+.button {
+
+    background-color: transparent;
+    border: none;
+}
+
+.description {
+    max-width: 80vw;
+}
+
+.element {
+    margin: 24px 0px;
+    color: var(--main-font-color);
+    width: 100%;
+}
+
+.wrapper {
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}

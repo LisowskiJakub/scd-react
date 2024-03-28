@@ -31,3 +31,24 @@
     margin: 0px auto;
     padding: 86px 0px 0px;
 }
+
+@media screen and (max-width: 1080px) {
+    .section {
+        height: auto;
+        padding: 20px;
+        width: 100vw;
+    }
+
+    .title {
+        margin-bottom: 30px;
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 49.5px;
+        text-align: center;
+    }
+
+    .description {
+        width: 90%;
+        text-align: center;
+    }
+}

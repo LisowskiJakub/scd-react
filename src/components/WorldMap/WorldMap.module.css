@@ -124,8 +124,17 @@
     display: flex;
 }
 
+.worldMobile {
+    display: none;
+}
+
 @media screen and (max-width: 1080px) {
     .map {
         display: none;
+    }
+
+    .worldMobile {
+        display: block;
+        max-width: 100vw;
     }
 }
