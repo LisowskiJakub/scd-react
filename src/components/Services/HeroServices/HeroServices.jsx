@@ -1,7 +1,6 @@
 import { Trans } from 'react-i18next'
 import css from "./HeroServices.module.css"
 
-import { theme } from '../../../Theme'
 
 
 

@@ -1,12 +1,13 @@
-
 import { HeroServices } from "./HeroServices/HeroServices"
 import { Trans } from "react-i18next"
 import { Card } from "./Card/Card"
+import { DropDown } from "../DropDown/DropDown"
 import css from "./Services.module.css"
 import electricImg from '/src/assets/img/electrical.jpg'
 import controlImg from '/src/assets/img/control.jpg'
-import laptopImg from '/src/assets/img/support.jpg'
-import picture from "/src/assets/img/services.png"
+import supportImg from '/src/assets/img/support.jpg'
+import picture from "/src/assets/img/services.jpg"
+
 export const Services = () => (
     <>
         <section className={css.section}>
@@ -22,7 +23,20 @@ export const Services = () => (
         <section className={css.cardsSection}>
             <Card id={"electrical"} picture={electricImg} langKey="services.electrical" />
             <Card id={"control"} picture={controlImg} position="right" langKey="services.control" />
-            <Card id={"support"} picture={laptopImg} langKey="services.support" bottom />
+            <Card id={"support"} picture={supportImg} langKey="services.support" />
+
+
+
+        </section>
+        <section className={css.mobileCardsSection}>
+            <DropDown transKey={"services.electrical"} picture={electricImg} />
+            <DropDown transKey={"services.control"} picture={controlImg} />
+
+            <DropDown transKey={"services.support"} picture={supportImg} />
+
+
+
+
         </section>
     </>
 )

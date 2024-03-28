@@ -5,16 +5,19 @@
 }
 
 .description {
-    max-width: 80vw;
+    max-width: 100%;
+    padding: 0 20px;
+    margin-bottom: 24px;
 }
 
 .element {
-    margin: 24px 0px;
+    margin: 24px 0px 0px;
     color: var(--main-font-color);
     width: 100%;
 }
 
 .wrapper {
+    padding: 0 20px;
     margin-bottom: 24px;
     display: flex;
     justify-content: space-between;
@@ -26,4 +29,20 @@
     font-weight: 700;
     line-height: 30px;
     text-align: left;
+}
+
+.image {
+    position: relative;
+    width: 100vw;
+    margin: 24px 0px 0px;
+
+}
+
+.image>img {
+    position: relative;
+    bottom: -3px;
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+
 }

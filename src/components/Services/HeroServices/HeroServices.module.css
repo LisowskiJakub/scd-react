@@ -20,6 +20,8 @@
 .content {
     display: flex;
     align-items: center;
+    width: 50vw;
+    padding: 0px 92px 0 0;
 
 
 }
@@ -30,7 +32,7 @@
 
 .description {
 
-    width: 711px;
+    width: auto;
     padding: 0;
     font-size: 20px;
     font-weight: 400;
@@ -44,8 +46,8 @@
 .image {
     height: min-content;
     position: relative;
-    top: 170px;
-    left: 50px;
+    top: 64px;
+    right: 0px;
 }
 
 .bg {
@@ -53,4 +55,39 @@
     background: linear-gradient(180deg, #EEE 0%, rgba(255, 255, 255, 0) 47.6%), url('/Hero.png'), #eee 50% / cover no-repeat;
     background-size: cover;
     background-position: left top;
+}
+
+@media screen and (max-width:1080px) {
+
+    .wrapper {
+        height: auto;
+        flex-direction: column-reverse;
+        width: auto;
+    }
+
+    .content {
+        padding: 20px;
+        width: 100vw;
+
+    }
+
+    .description {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+
+    }
+
+
+    .image {
+        position: static;
+    }
+
+    .image>img {
+        width: 100%;
+        position: static;
+        object-fit: cover;
+
+    }
 }
