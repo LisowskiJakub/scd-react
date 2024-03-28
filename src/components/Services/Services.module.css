@@ -33,13 +33,13 @@
 }
 
 .mobileCardsSection {
-    display: none;
+    display: block;
 }
 
 @media screen and (max-width: 1080px) {
-    .cardsSection {
+    /* .cardsSection {
         display: none;
-    }
+    } */
 
     .section {
         height: auto;
