@@ -107,6 +107,7 @@ p {
         width: 100vw;
         align-items: center;
         padding: 40px 20px 16px;
+        border: none;
     }
 
     .title {
