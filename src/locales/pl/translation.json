@@ -128,15 +128,15 @@
     },
     "philosophy": {
         "vision": {
-            "title": "Our VisionPL",
+            "title": "Nasza wizja",
             "description": "Automatyzujemy świat. Wierzymy, że automatyzacja poprawia efektywność pracy i jakość naszego życia."
         },
         "mission": {
-            "title": "Our MissionPL",
+            "title": "Nasza misja",
             "description": "Skupialmy się na potrzebach klientów i wspieramy ich w doskonaleniu procesów poprzez wdrażanie najlepszych rozwiązań, dostosowanych specjalnie do ich wymagań."
         },
         "values": {
-            "title": "Our valuesPL",
+            "title": "Nasze wartości",
             "description": "Jesteśmy otwartym, doświadczonym i ambitnym zespołem. Filarami naszej pracy są szacunek, kompetencja, słuchanie i wzajemne wsparcie."
         }
     },
