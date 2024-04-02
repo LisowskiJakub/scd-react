@@ -5,6 +5,7 @@ import { Intralogistics } from './Intralogistics/Intralogistics';
 import { Automotive } from './Automotive/Automotive';
 import { IndustryMachines } from './IndustryMachines/IndustryMachines';
 import { Stats } from './Stats/Stats';
+import { StatsMobile } from './StatsMobile/StatsMobile';
 import css from './ProjectsInfo.module.css'
 
 
@@ -32,25 +33,34 @@ export const ProjectsInfo = () => {
     }
     return (
         <>
-            <section className={css.section}>
-                <div className={css.menu}>
-                    <div className={css.wrapper} id="menuActive">
-                        <button id='intralogistics' onClick={handleClick} style={activePage == "intralogistics" ? activeStyle : {}} className={css.link} ><Trans i18nKey='projectsInfo.intralogistics.title'></Trans></button>
-                        <button id='automotive' onClick={handleClick} style={activePage == "automotive" ? activeStyle : {}} className={css.link}><Trans i18nKey="projectsInfo.automotive.title"></Trans></button>
-                        <button id='industryMachines' onClick={handleClick} style={activePage == "industryMachines" ? activeStyle : {}} className={css.link}><Trans i18nKey="projectsInfo.industryMachines.title"> </Trans></button>
-                    </div>
-                    <div className={css.description}>
-                        {page}
-                    </div>
-                </div>
+            {window.innerWidth > 1080 ?
+                <>
+                    <section className={css.section}>
+                        <div className={css.menu}>
+                            <div className={css.wrapper} id="menuActive">
+                                <button id='intralogistics' onClick={handleClick} style={activePage == "intralogistics" ? activeStyle : {}} className={css.link} ><Trans i18nKey='projectsInfo.intralogistics.title'></Trans></button>
+                                <button id='automotive' onClick={handleClick} style={activePage == "automotive" ? activeStyle : {}} className={css.link}><Trans i18nKey="projectsInfo.automotive.title"></Trans></button>
+                                <button id='industryMachines' onClick={handleClick} style={activePage == "industryMachines" ? activeStyle : {}} className={css.link}><Trans i18nKey="projectsInfo.industryMachines.title"> </Trans></button>
+                            </div>
+                            <div className={css.description}>
+                                {page}
+                            </div>
+                        </div>
 
-            </section >
-            <section className={css.statSection}>
-                <div className={css.statWrapper}>
-                    <Stats langKey={activePage} />
+                    </section >
+                    <section className={css.statSection}>
+                        <div className={css.statWrapper}>
+                            <Stats langKey={activePage} />
 
-                </div>
-            </section>
+                        </div>
+                    </section></>
+                :
+                <>
+                    <StatsMobile langKey={"intralogistics"} />
+                    <StatsMobile langKey={"automotive"} />
+                    <StatsMobile langKey={"industryMachines"} />
+                </>
+            }
         </>
     )
 }
