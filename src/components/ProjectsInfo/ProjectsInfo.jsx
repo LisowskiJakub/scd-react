@@ -7,7 +7,9 @@ import { IndustryMachines } from './IndustryMachines/IndustryMachines';
 import { Stats } from './Stats/Stats';
 import { StatsMobile } from './StatsMobile/StatsMobile';
 import css from './ProjectsInfo.module.css'
-
+import mobileIntralogistics from '/src/assets/img/mobileIntralogistics.png'
+import mobileAutomotive from '/src/assets/img/mobileAutomotive.png'
+import mobileIndustry from '/src/assets/img/mobileIndustry.png'
 
 
 export const ProjectsInfo = () => {
@@ -55,12 +57,14 @@ export const ProjectsInfo = () => {
                         </div>
                     </section></>
                 :
-                <>
-                    <StatsMobile langKey={"intralogistics"} />
-                    <StatsMobile langKey={"automotive"} />
-                    <StatsMobile langKey={"industryMachines"} />
-                </>
+                <div className={css.mobileWrapper}>
+                    <StatsMobile langKey={"intralogistics"} color={"#8CB4F7"} picture={mobileIntralogistics} />
+                    <StatsMobile langKey={"automotive"} color={"#8CB4F7"} picture={mobileAutomotive} />
+                    <StatsMobile langKey={"industryMachines"} color={"#8CB4F7"} picture={mobileIndustry} />
+                </div>
             }
         </>
     )
 }
+
+

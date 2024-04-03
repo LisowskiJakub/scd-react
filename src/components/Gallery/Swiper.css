@@ -31,3 +31,10 @@
 
     z-index: 3;
 }
+
+@media screen and (max-width: 1080px) {
+    .swiper-slide-prev img, .swiper-slide-next img {
+        opacity: 1;
+    }
+
+}

@@ -8,3 +8,15 @@
     width: 714px;
     height: 476px;
 }
+
+@media screen and (max-width: 1080px) {
+    .gallery {
+        width: 100vw;
+        margin-top: 0px;
+    }
+
+    .slide {
+        width: 100vw;
+        height: auto;
+    }
+}

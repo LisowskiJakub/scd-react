@@ -30,89 +30,177 @@ import img19 from '/src/assets/img/projects/auto9.jpg';
 import img20 from '/src/assets/img/projects/auto10.jpg';
 
 export const Gallery = () => (
-    <div className={css.gallery}>
-        <Swiper
-            modules={[Navigation, EffectCoverflow, Pagination]}
-            spaceBetween={40}
-            slidesPerView={2}
-            centeredSlides={true}
-            navigation={{
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-                clickable: true
-            }}
-            pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
-            loop={true}
+    <>
+        {window.innerWidth > 1080 ?
+            <div className={css.gallery}>
+                <Swiper
+                    modules={[Navigation, EffectCoverflow, Pagination]}
+                    spaceBetween={40}
+                    slidesPerView={2}
+                    centeredSlides={true}
+                    navigation={{
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                        clickable: true
+                    }}
+                    pagination={{ clickable: true }}
+                    scrollbar={{ draggable: true }}
+                    loop={true}
 
-            className="swiper_container"
-        >
-            <SwiperSlide>
-                <img className={css.slide} src={img1} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img11} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img2} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img12} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img3} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img13} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img4} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img14} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img5} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img15} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img6} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img16} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img7} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img17} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img8} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img18} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img9} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img19} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img10} alt="slide" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img className={css.slide} src={img20} alt="slide" />
-            </SwiperSlide>
-            <div className="slider-controler">
-                <div className="swiper-button-prev slider-arrow"></div>
-                <div className="swiper-button-next slider-arrow"></div>
+                    className="swiper_container"
+                >
+                    <SwiperSlide>
+                        <img className={css.slide} src={img1} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img11} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img2} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img12} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img3} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img13} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img4} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img14} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img5} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img15} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img6} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img16} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img7} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img17} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img8} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img18} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img9} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img19} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img10} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img20} alt="slide" />
+                    </SwiperSlide>
+                    <div className="slider-controler">
+                        <div className="swiper-button-prev slider-arrow"></div>
+                        <div className="swiper-button-next slider-arrow"></div>
+                    </div>
+                </Swiper>
             </div>
-        </Swiper>
-    </div>
+            :
+            <div className={css.gallery}>
+                <Swiper
+                    modules={[Navigation, EffectCoverflow, Pagination]}
+                    spaceBetween={0}
+                    slidesPerView={1}
+                    centeredSlides={true}
+                    navigation={{
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                        clickable: true
+                    }}
+                    pagination={{ clickable: true }}
+                    scrollbar={{ draggable: true }}
+                    loop={true}
+
+                    className="swiper_container"
+                >
+                    <SwiperSlide>
+                        <img className={css.slide} src={img1} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img11} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img2} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img12} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img3} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img13} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img4} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img14} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img5} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img15} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img6} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img16} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img7} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img17} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img8} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img18} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img9} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img19} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img10} alt="slide" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className={css.slide} src={img20} alt="slide" />
+                    </SwiperSlide>
+                    <div className="slider-controler">
+                        <div className="swiper-button-prev slider-arrow"></div>
+                        <div className="swiper-button-next slider-arrow"></div>
+                    </div>
+                </Swiper>
+            </div>
+        }
+    </>
 )
 
 

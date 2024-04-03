@@ -77,3 +77,9 @@
 .stats {
     display: flex;
 }
+
+.mobileWrapper {
+    color: var(--second-font-color);
+    background: linear-gradient(0deg, #2A3941, #2A3941),
+        linear-gradient(360deg, rgba(238, 238, 238, 0.1) 0%, rgba(238, 238, 238, 0) 100%);
+}

@@ -32,14 +32,10 @@
     padding: 86px 0px 0px;
 }
 
-.mobileCardsSection {
-    display: block;
-}
+
 
 @media screen and (max-width: 1080px) {
-    /* .cardsSection {
-        display: none;
-    } */
+
 
     .section {
         height: auto;
