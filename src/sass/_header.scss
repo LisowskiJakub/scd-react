@@ -1,93 +1,93 @@
-.header {
-    position: sticky;
-    top: 0;
-    color: $main-font-color;
-    background-color: $main-background;
-    z-index: 10;
+// .header {
+//     position: sticky;
+//     top: 0;
+//     color: $main-font-color;
+//     background-color: $main-background;
+//     z-index: 10;
 
-    &__menu {
+//     &__menu {
 
-        margin: auto;
-        display: flex;
-        height: 112px;
-        justify-content: space-between;
-        align-items: center;
-    }
-}
+//         margin: auto;
+//         display: flex;
+//         height: 112px;
+//         justify-content: space-between;
+//         align-items: center;
+//     }
+// }
 
-.menu {
-    display: flex;
-    justify-content: space-between;
-    width: 283px;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+// .menu {
+//     display: flex;
+//     justify-content: space-between;
+//     width: 283px;
+//     font-size: 13px;
+//     font-style: normal;
+//     font-weight: 700;
+//     line-height: normal;
 
-    &__link {
-        cursor: pointer;
+//     &__link {
+//         cursor: pointer;
 
-        &:hover {
-            cursor: pointer;
-            color: $accent-color
-        }
-    }
-}
-
-
-.side-menu {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 232px;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-
-    &__link {
-
-        &:hover {
-            cursor: pointer;
-            color: $accent-color
-        }
-    }
-
-}
-
-a.side-menu__link {
-    color: var(--accent-color);
-    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-
-    &:hover {
-        color: $second-font-color;
-        background-color: $accent-color;
-    }
-}
-
-.accent {
-    display: flex;
-    width: 140px;
-    height: 40px;
-    padding: 10px 38px;
-    color: $accent-color;
-    border: 1px solid $accent-color;
-    border-radius: 20px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-
-    // &:visited {
-    //     color: $accent-color;
-    // }
-
-    &:hover {
-        color: $second-font-color;
-        background-color: $accent-color;
-    }
+//         &:hover {
+//             cursor: pointer;
+//             color: $accent-color
+//         }
+//     }
+// }
 
 
+// .side-menu {
 
-}
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     width: 232px;
+//     font-size: 13px;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: 150%;
+
+//     &__link {
+
+//         &:hover {
+//             cursor: pointer;
+//             color: $accent-color
+//         }
+//     }
+
+// }
+
+// a.side-menu__link {
+//     color: var(--accent-color);
+//     transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+
+//     &:hover {
+//         color: $second-font-color;
+//         background-color: $accent-color;
+//     }
+// }
+
+// .accent {
+//     display: flex;
+//     width: 140px;
+//     height: 40px;
+//     padding: 10px 38px;
+//     color: $accent-color;
+//     border: 1px solid $accent-color;
+//     border-radius: 20px;
+//     justify-content: center;
+//     align-items: center;
+//     flex-shrink: 0;
+//     transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+
+//     // &:visited {
+//     //     color: $accent-color;
+//     // }
+
+//     &:hover {
+//         color: $second-font-color;
+//         background-color: $accent-color;
+//     }
+
+
+
+// }

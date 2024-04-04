@@ -3,6 +3,7 @@ import { Trans } from "react-i18next"
 import { ProjectsInfo } from "../ProjectsInfo/ProjectsInfo"
 import { Outlet } from "react-router-dom"
 import { WorldMap } from "../WorldMap/WorldMap"
+import { MobileWorldMap } from "../MobileWorldMap/MobileWorldMap"
 import { Gallery } from "../Gallery/Gallery"
 import css from "./Projects.module.css"
 
@@ -26,6 +27,11 @@ export const Projects = () => (
             <Outlet></Outlet>
         </ProjectsInfo>
         <Gallery />
-        <WorldMap simple={false} />
+
+        {window.innerWidth > 1080 ?
+            <WorldMap simple={false} />
+            :
+            <MobileWorldMap simple={false} />}
+
     </>
 )

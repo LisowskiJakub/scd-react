@@ -26,7 +26,7 @@ const PlaceItem = ({ position, country, city, id }) => (
 )
 
 export const WorldMap = ({ simple = true }) => {
-    const [activePlace, setActivePlace] = useState("id-10")
+    const [activePlace, setActivePlace] = useState("")
     const [map, setMap] = useState(world);
 
     return (

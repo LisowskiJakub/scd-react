@@ -94,6 +94,10 @@ p {
 }
 
 @media screen and (max-width: 1080px) {
+    .footer {
+        padding: 40px 20px 16px;
+    }
+
     .wrapper {
         flex-direction: column;
     }
@@ -106,7 +110,7 @@ p {
     .rightSide {
         width: 100vw;
         align-items: center;
-        padding: 40px 20px 16px;
+        padding: 24px 0 16px;
         border: none;
     }
 
@@ -114,13 +118,15 @@ p {
         display: none;
     }
 
-    p {
+    .links {
+        margin: 42px 0 24px;
+    }
+
+    p, a {
         text-align: center;
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
-
-
     }
 
     .copyRights {
@@ -128,6 +134,11 @@ p {
     }
 
     .copyRights__mobile {
-        display: text;
+        display: block;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+
     }
 }

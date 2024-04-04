@@ -36,15 +36,13 @@
 
 @media screen and (max-width: 1080px) {
 
-
     .section {
         height: auto;
-        padding: 0px;
+        padding: 20px;
         width: 100vw;
     }
 
     .title {
-        padding: 20px;
         margin-bottom: 30px;
         font-size: 33px;
         font-weight: 700;
@@ -53,10 +51,14 @@
     }
 
     .description {
-        padding: 20px;
-        width: 100%;
-        text-align: center;
+        width: 90vw;
+        height: auto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
     }
+
 
     .mobileCardsSection {
         display: block;

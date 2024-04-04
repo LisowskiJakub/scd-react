@@ -45,16 +45,13 @@
     color: var(--accent-colo)r
 }
 
+.sideMenu__link {
 
-
-a.sideMenu__link {
-    color: var(--accent-color);
     transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
-a.sideMenu__link:hover {
-    color: var(--second-font-color);
-    background-color: var(--accent-color);
+.sideMenu__link:hover {
+    color: var(--accent-color);
     cursor: pointer;
 }
 
@@ -65,17 +62,19 @@ a.sideMenu__link:hover {
     height: 40px;
     padding: 10px 38px;
     color: var(--accent-color);
+    background-color: var(--main-background);
     border: 1px solid var(--accent-color);
     border-radius: 20px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    transition: color 0.25s ease-in-out;
 }
 
-.accent:hover {
-    color: var(--second-font-color);
-    background-color: var(--accent-color);
+.sideMenu__link__accent:hover {
+
+    color: var(--accent-color);
+
 }
 
 @media screen and (max-width: 1080px) {
@@ -83,7 +82,16 @@ a.sideMenu__link:hover {
         padding: 0px 20px;
     }
 
+    .sideMenu {
+        justify-content: flex-end;
+    }
+
+    .sideMenu__link {
+        display: none;
+    }
+
     a:link.sideMenu__link__accent {
         display: none;
     }
+
 }

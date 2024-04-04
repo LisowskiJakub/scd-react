@@ -29,24 +29,24 @@
 @media screen and (max-width: 1080px) {
     .section {
         height: auto;
+        padding: 20px;
+        width: 100vw;
     }
 
     .title {
-        height: max-content;
-        padding: 20px;
-        width: 100vw;
+        margin-bottom: 30px;
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 49.5px;
         text-align: center;
     }
 
     .description {
-        padding: 20px;
+        width: 90vw;
+        height: auto;
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
         text-align: left;
-        width: 90vw;
-        text-align: center;
-
     }
-
 }

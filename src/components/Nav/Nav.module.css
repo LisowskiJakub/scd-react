@@ -8,16 +8,18 @@
     line-height: normal;
 }
 
-link {
+.link {
     cursor: pointer;
 }
 
-link:hover {
+.link:hover {
     cursor: pointer;
     color: var(--accent-color);
 }
 
-
+.active {
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 1080px) {
     .menu {

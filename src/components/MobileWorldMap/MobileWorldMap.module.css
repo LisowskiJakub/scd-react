@@ -1,0 +1,118 @@
+.worldMobile {
+    display: none;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 50px 0px;
+    width: 100vw;
+}
+
+.menu {
+    padding: 0 20px;
+    display: flex;
+    margin: 0px auto 75px 0px;
+}
+
+.list {
+    width: 100vw;
+    padding: 0 20px;
+}
+
+.button {
+
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: var(--main-font-color);
+    font-size: 13px;
+    transition: color 0.25s ease-in-out, font-weight 0.25s ease-in-out, border 0.25s ease-in-out;
+}
+
+.active {
+    color: var(--accent-color);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.picture {
+    width: 100vw;
+}
+
+.picture>img {
+    width: 100vw;
+
+
+}
+
+.mobileMapCard {
+    margin: 16px 0px;
+    box-shadow: 0px 10px 10px 0px #0000000A;
+}
+
+.bar {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 20px;
+    width: 100%;
+}
+
+.buttonItem {
+    background-color: transparent;
+    border: none;
+}
+
+.content {
+    padding: 0 20px 20px;
+}
+
+.country {
+    width: fit-content;
+}
+
+.city {
+    width: fit-content;
+}
+
+.business {
+    width: 250px;
+}
+
+.stuff {
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    list-style: none;
+}
+
+.stuff>li {
+    margin: 12px 0px;
+}
+
+ul {
+    margin: 12px 0px;
+}
+
+.description {
+    opacity: 0;
+    display: none;
+    flex-direction: row;
+    position: absolute;
+    bottom: 30px;
+    width: max-content;
+    padding: 10px 38px;
+    border-radius: 20px;
+    background-color: var(--main-background);
+    z-index: 1000;
+    transition: opacity 250ms ease-in-out;
+    box-shadow: 0px 20px 20px 0px #00000014;
+
+}
