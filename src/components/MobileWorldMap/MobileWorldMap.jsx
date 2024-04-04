@@ -2,9 +2,9 @@ import { useState } from 'react'
 import { ChevronDown, ChevronUp } from "react-bootstrap-icons"
 import { Trans } from 'react-i18next'
 import css from './MobileWorldMap.module.css'
-import world from '/src/assets/img/maps/world.png'
-import usa from '/src/assets/img/maps/usa.png'
-import europe from '/src/assets/img/maps/europe.png'
+import world from '/src/assets/img/maps/worldMobile.jpg'
+import usa from '/src/assets/img/maps/usaMobile.jpg'
+import europe from '/src/assets/img/maps/europeMobile.jpg'
 import places from './data.json'
 import mobileMap from '/src/assets/img/mobileMap.png'
 
